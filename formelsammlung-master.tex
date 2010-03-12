@@ -1,0 +1,566 @@
+%
+%  Formel und Verfahrensammlung
+%
+%  Created by Oliver Michel on 2009-11-18.
+%  Copyright (c) 2009 :editum.internet solutions. All rights reserved.
+%
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage, listings, ngerman, graphicx, hyperref, fancyhdr, multicol, amssymb, setspace}
+
+\title{Formel- und Verfahrensammlung Analysis}
+\author{Oliver Michel\\Universität Wien}
+\date{\today}
+
+\onehalfspacing
+
+\begin{document}
+		
+	\maketitle
+	\tableofcontents
+
+	\pagebreak
+
+	\section{Grundlagen} % (fold)
+	\label{sec:grundlagen}
+	
+	\subsection{Ableitungsregeln} % (fold)
+	\label{sub:ableitungsregeln}
+	
+	\subsubsection{Faktorregel}
+	\label{ssub:faktorregel}
+	\begin{equation}
+		(ax^n)' = a(x^n)' 
+	\end{equation}	
+	
+	\subsubsection{Summenregel}
+	\label{ssub:summenregel}
+	\begin{equation}
+		(u+v)' = u' + v' 
+	\end{equation}	
+	
+	\subsubsection{Potenzregel}
+	\label{ssub:potenzregel}
+	\begin{equation}
+		(x^n)' = nx^{n-1} 
+	\end{equation}
+
+	\subsubsection{Produktregel}
+	\label{ssub:produktregel}
+	\begin{equation}
+		(uv)' = u'v + uv'
+	\end{equation}	
+
+	\subsubsection{Quotientenregel}
+	\label{ssub:quotientenregel}
+	\begin{equation}
+		\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
+	\end{equation}
+	
+	\subsubsection{Kettenregel}
+	\label{ssub:kettenregel}
+	\begin{equation}
+		(u \circ v)' = u'(v) \cdot v'
+	\end{equation}
+	Beispiel: $(sin(x^2))' = cos(x^2) \cdot 2x$
+	% subsection ableitungsregeln (end)
+	
+	\subsection{Besondere Ableitungen} % (fold)
+	\label{sub:besondere_ableitungen}
+	
+	\subsubsection{Winkelfunktionen}
+	\label{ssub:winkelfunktionen}	
+	\begin{eqnarray}
+		sin' &=& cos \\
+		cos' &=& -sin \\
+		(-sin)' &=& -cos \\
+		(-cos)' &=& sin
+	\end{eqnarray}
+	
+	\subsubsection{Exponentialfunktionen}
+	\label{ssub:exponentialfunktionen}	
+	\begin{eqnarray}
+		(e^x)' &=& e^x \\
+		(e^{kx})' &=& k \cdot e^{kx} \\
+		(a^x)' &=& ln(a) \cdot a^x
+	\end{eqnarray}
+	
+	\subsubsection{Logarithmusfunktionen}
+	\label{ssub:exponentialfunktionen}	
+	\begin{eqnarray}
+		(ln(x))' &=& \frac{1}{x} \\
+		(log_b(x))' &=& \frac{1}{x\cdotln(b)}
+	\end{eqnarray}	
+	
+	% subsection besondere_ableitungen (end)
+	
+	\subsection{Integration} % (fold)
+	\label{sub:integration}
+	
+	\subsubsection{Hauptsatz der Integralrechnung} 
+	\label{ssub:hauptsatz_der_integralrechnung}
+	
+	\begin{equation}
+		\int_a^b f(x)dx = F(b) - F(a)
+	\end{equation}
+	
+	\subsubsection{Integration der Exponentialfunktion}
+	\label{ssub:integration_der_exponentialfunktion}
+	
+	Wenn der Exponent der Exponentialfunktion eine lineare Funktion der Form $mx+c$ ist, dann lautet die Stammfunktion
+	\begin{equation}
+		f(x) = e^{mx+c} \rightarrow F(x) = \frac{1}{m} e^{mx+c}
+	\end{equation}
+	
+	\subsubsection{Partielle Integration}
+	\label{ssub:partielle_integration}
+	\begin{equation}
+		\int_a^b (u \cdot v') dx = \left[u \cdot v \right]^a_b - \int_a^b (u' \cdot v) dx
+	\end{equation}
+	% subsection integration (end)
+	
+	\subsection{Vektoren} 
+	\label{sub:vektoren}
+	
+	\subsubsection{Addition und Substraktion von Vektoren} % (fold)
+	\label{ssub:addition_und_substraktion_von_vektoren}
+	
+	\begin{eqnarray}
+		\overrightarrow{a} + \overrightarrow{b}
+		= \left( \begin{array}{c} a_1\\a_2\\a_3\end{array}\right) + \left( \begin{array}{c} b_1\\b_2\\b_3\end{array}\right)
+		= \left( \begin{array}{c} a_1 + b_1\\a_2 + b_2\\a_3 + b_3\end{array}\right) \\
+		\overrightarrow{a} - \overrightarrow{b}
+		= \left( \begin{array}{c} a_1\\a_2\\a_3\end{array}\right) - \left( \begin{array}{c} b_1\\b_2\\b_3\end{array}\right)
+		= \left( \begin{array}{c} a_1 - b_1\\a_2 - b_2\\a_3 - b_3\end{array}\right)
+	\end{eqnarray}
+	
+	\subsubsection{Skalarmultiplikation}
+	\label{ssub:skalarmultiplikation}
+	
+	\begin{equation}
+		r \cdot \overrightarrow{v} = r \left( \begin{array}{c} v_1\\v_2\\v_3\end{array}\right)
+		= \left( \begin{array}{c}r \cdot v_1\\r \cdot v_2\\r \cdot v_3\end{array}\right)
+	\end{equation}
+
+	\subsubsection{Skalarprodukt (Vektorprodukt)} % (fold)
+	\label{ssub:skalarprodukt_vektorprodukt_}
+	
+	\begin{equation}
+		\overrightarrow{a} \cdot \overrightarrow{b}
+		= \left( \begin{array}{c} a_1\\a_2\\a_3\end{array}\right) \cdot \left( \begin{array}{c} b_1\\b_2\\b_3\end{array}\right)
+		= a_1 \cdot b_1 + a_2 \cdot b_2 + a_3 \cdot b_3
+	\end{equation}
+	
+	\subsubsection{Betrag eines Vektors}
+	\label{ssub:betrag_eines_vektors}
+	
+	\begin{equation}
+		|\overrightarrow{v}| = \sqrt{v_1^2 + v_2^2 + v_3^2}
+	\end{equation}
+	
+	% subsection vektoren (end)
+	
+	\subsection{Matrizzen} % (fold)
+	\label{sub:matrizzen}
+	
+	\subsubsection{Matrixmultiplikation} 
+	\label{ssub:matrixmultiplikation}
+	
+	Bei der Multiplikation von 2 Matrizzen muss die Zeilenanzahl der ersten Matrix gleich der Spaltenanzahl der 2. Matrix sein. 
+	\begin{equation}
+		C = A \cdot B, A : l \times m, B : m \times n \rightarrow C : l \times n
+	\end{equation}
+	Beispiel: 
+	\begin{equation}
+		\left(\begin{array}{ccc}1 & 2 & 3 \\4 & 5 & 6 \\\end{array}\right) \cdot
+		\left(\begin{array}{cc}6 & -1 \\3 & 2 \\0 & -3\end{array}\right)
+		=\left(\begin{array}{cc}1 \cdot 6  +  2 \cdot 3  +  3 \cdot 0 &
+		  1 \cdot (-1) +  2 \cdot 2 +  3 \cdot (-3) \\4 \cdot 6  +  5 \cdot 3  +  6 \cdot 0 &
+		  4 \cdot (-1) +  5 \cdot 2 +  6 \cdot (-3) \\\end{array}\right)
+		=\left(\begin{array}{cc}12 & -6 \\39 & -12\end{array}\right)
+	\end{equation}
+	
+	\subsubsection{Multiplikation eines Vektors mit einer Matrix}
+	\label{ssub:multiplikation_eines_vektors_mit_einer_matrix}
+
+	Die Multiplikation eines Vektors mit einer Matrix ergibt immer einen Vektor. Die Komponenten des Vektors ergeben sich
+	aus der Multiplikation der jeweiligen Zeile der Matrix mit dem gesamten Vektor (Skalarprodukt).
+	\\Beispiel:
+	\begin{equation}
+		\left(\begin{array}{c}1\\2\end{array}\right) \cdot \left(\begin{array}{cc}3 & 4\\5 & 6\end{array}\right)
+		= \left(\begin{array}{c}1 \cdot 3 + 2 \cdot 4 \\ 1 \cdot 5 + 2 \cdot 6\end{array}\right)
+		= \left(\begin{array}{c}11\\17\end{array}\right)
+	\end{equation}
+	
+	\subsubsection{Kriterium von Sylvester}
+	\label{ssub:kriterium_von_sylvester}
+	
+	Eine symmetrische Matrix $A$ ist 
+	\begin{itemize}
+		\item positiv definit, wenn alle ihre Hauptminoren\footnote{Hauptminoren: Determinanten von Untermatrizzen} positiv sind.
+		\item negativ definit, wenn ihre Hauptminoren alternierend negativ und positiv sind.
+		\item indefinit, wenn keine der beiden oberen Kriterien zutrifft.
+	\end{itemize}
+	
+	% subsection matrizzen (end)
+	
+	\subsection{Kreise} % (fold)
+	\label{sub:kreise}
+	
+	\subsubsection{Kreisgleichung} 
+	\label{ssub:kreisgleichung}
+	
+	Ein Kreis mit dem Radius $r$ um den Mittelpunkt $M$ ist definiert durch
+	\begin{equation}
+		y = y_M \pm \sqrt{r^2 - (x-x_M)^2}
+	\end{equation}
+	Ist der Mittelpunkt der Ursprung des Koordinatensystems, fällt der Punkt M weg:
+	\begin{equation}
+		y = \pm \sqrt{r^2-x^2}
+	\end{equation}
+	Handelt es sich um einen Einheitskreis um den Ursprung lautet die Gleichung also
+	\begin{equation}
+		y = \pm \sqrt{1-x^2}
+	\end{equation}
+	% subsection kreise (end)
+	% section grundlagen (end)
+	
+	\pagebreak
+	
+	\section{Mehrdimensionale Funktionen} % (fold)
+	\label{sec:mehrdimensionale_funktionen}
+	\subsection{Abbildungstypen} % (fold)
+	\label{sub:abbildungstypen}
+	
+	\subsubsection{$\mathbb{R}$ \rightarrow \mathbb{R}}
+	\label{ssub:r_rightarrow_r}
+	Beispiel mit 1. Ableitung:
+	\begin{eqnarray*}
+		f(x) &=& sin(x)cos(x) \\
+		f'(x) &=& cos^2(x)-sin^2(x)
+	\end{eqnarray*}
+
+	\subsubsection{$\mathbb{R}$ \rightarrow \mathbb{R}^n}
+	\label{ssub:r_rightarrow_r}
+	Beispiel mit 1. Ableitung (Ableitungsvektor):
+	\begin{eqnarray*}
+		f(t) &=& \left(\begin{array}{c} cos(t)) \\ sin(t))\end{array}\right) \\
+		\nabla f(t) &=& \left( \begin{array}{c} -sin(t) \\ cos(t)\end{array} \right)
+	\end{eqnarray*}
+
+	\subsubsection{$\mathbb{R}^n$ \rightarrow \mathbb{R}}
+	\label{ssub:r_rightarrow_r}
+	Beispiel mit 1. Ableitung (Gradientenvektor):
+	\begin{eqnarray*}
+		f(x_1,x_2) &=& sin(x_1)cos(x_2) \\
+		\nabla f(x_1,x_2) &=& \left( \begin{array}{c} cos(x_1) cos(x_2) \\ -sin(x_1)sin(x_2) \end{array} \right)
+	\end{eqnarray*}
+		
+	\subsubsection{$\mathbb{R}^n$ \rightarrow \mathbb{R}^m}
+	\label{ssub:r_rightarrow_r}
+	Beispiel mit 1. Ableitung (Jacobi-Matrix): 
+	\begin{eqnarray*}
+		f(x_1,x_2) &=& \left(\begin{array}{c} sin(x_1) \\ cos(x_2)\end{array}\right) \\
+		\nabla f(x_1,x_2) = J_f &=& \left( \begin{array}{cc} cos(x_1) & 0 \\ 0 & -sin(x_2) \end{array} \right)
+	\end{eqnarray*}	
+	% subsection abbildungstypen (end)
+	
+	\subsection{Niveaulinien} % (fold)
+	\label{sub:niveaulinien}
+	
+	\begin{equation}
+		f(x_1,x_2,...,x_n) = y = c
+	\end{equation}
+	Auflösen nach $x_2$ und Niveauebenen für $c$ einsetzen.
+	
+	% subsection niveaulinien (end)
+	
+	% section funktionen_mehrerer_variablen (end)
+	
+	\pagebreak
+	
+	\section{Differentialrechnung bei Funktionen mehrerer Variablen} % (fold)
+	\label{sec:differentialrechnung_bei_funktionen_mehrerer_variablen}
+	
+	\subsection{Partielles Differenzieren} % (fold)
+	\label{sub:partielles_differenzieren}
+
+	Partielle Ableitung von $f$ nach $x_1$: $\frac{\partial f}{\partial x_1} f(x_1,x_2,...,x_n)$
+	% subsection partielles_differenzieren (end)
+	
+	\subsection{Gradientenvektor} % (fold)
+	\label{sub:gradientenvektor}
+	Gradientenvektor $\nabla f$ zu $f(x_1,x_2,...,x_n)$: 
+	\begin{equation}
+		grad(f) = \nabla f = \left(\begin{array}{c} \frac{\partial f}{\partial x_1} \\ 
+		\frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n} \end{array}\right)
+	\end{equation}
+	Vektor aus partiellen Ableitungen nach allen Argumenten von $f$
+	% subsection gradientenvektor (end)
+	
+	\subsection{Hesse-Matrix} % (fold)
+	\label{sub:hesse_matrix}
+	Hesse-Matrix $H_f$ zu $f(x_1,x_2,...,x_n)$: 
+	
+	\begin{equation}
+		H_f = \nabla^2f = \left( \begin{array}{cccc}
+			\frac{\partial^2 f}{\partial x_1^\partial x_1} & \frac{\partial^2 f}{\partial x_1^\partial x_2} 
+			& \dots & \frac{\partial^2 f}{\partial x_1^\partial x_n} \\
+			
+			\frac{\partial^2 f}{\partial x_2^\partial x_1} & \frac{\partial^2 f}{\partial x_2^\partial x_2} 
+			& \dots & \frac{\partial^2 f}{\partial x_2^\partial x_n} \\	
+			\vdots & \vdots & \ddots & \vdots \\
+			\frac{\partial^2 f}{\partial x_n^\partial x_1} & \frac{\partial^2 f}{\partial x_n^\partial x_2} 
+			& \dots & \frac{\partial^2 f}{\partial x_n^\partial x_n}
+		\end{array}\right)
+	\end{equation}
+	% subsection hesse_matrix (end)
+	
+	\subsection{Jacobi-Matrix} % (fold)
+	\label{sub:jacobi_matrix}
+	Jacobi-Matrix $J_f(x)$ zu $f(x)$ = \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right), 
+	\mathbb{R}^n \rightarrow \mathbb{R}^m:
+	
+	\begin{eqnarray}
+		\nabla f(x) &=& J_f(x)  = \nabla \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right) 
+		= \left( \begin{array}{c} \nabla f_1(x_1,...,x_n) \\ \vdots \\ \nabla f_m(x_1,...,x_n) \end{array} \right) \\
+		&=& \left( \begin{array}{ccc} 
+				\frac{\partial}{\partial x_1}f_1(x_1,...,x_n) & ... & \frac{\partial}{\partial x_n}f_1(x_1,...,x_n) \\
+				... & \ddots & ... \\
+				\frac{\partial}{\partial x_1}f_m(x_1,...,x_n) & ... & \frac{\partial}{\partial x_n}f_m(x_1,...,x_n)
+			\end{array}\right)
+	\end{eqnarray}
+	
+	% subsection jacobi_matrix (end)
+	
+	\subsection{Richtungsableitung} % (fold)
+	\label{sub:richtungsableitung}
+	
+	Die Richtungsableitung $D_vf$ einer Funktion $f(x_1,x_2,...,x_n)$ entlang 
+	eines Vektors $\overrightarrow{v}$ ($|\overrightarrow{v}| = 1$!) 
+	im Punkt $\overrightarrow{p}$ ist definiert als:
+	\begin{equation}
+		D_vf = \nabla f(p) \cdot \overrightarrow{v}
+	\end{equation}
+	Das Ergebnis ist ein reiner Zahlenwert, der sich aus dem Skalarprodukt von $\overrightarrow{v}$ mit dem Gradienten-Vektor
+	der Funktion $f$ ergibt.
+	% subsection richtungsableitung (end)
+	
+	\subsection{Tangentialabbildung} % (fold)
+	\label{sub:tangentialabbildung}
+	Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n, f(x_1,x_2,...,x_n)$ = y, dann ist $g(x)$ eine affin lineare Abbildung und heißt
+	\emph{Tangentialabbildung} von $f$ in \overrightarrow{p}.
+	\begin{equation}
+		g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
+	\end{equation}
+	Beispiel: An die Funktion $f : \mathbb{R}^2 \rightarrow \mathbb{R}, f(x_1,x_2) = x_1 \cdot x_2$ soll in Punkt $\overrightarrow{p} = 
+	\left(\begin{array}{c}1\\1\end{array}\right)$ eine Tangentialebene gelegt werden 
+	($\nabla f = \left(\begin{array}{c}x_2\\x_1\end{array}\right)$). 
+	\begin{eqnarray*}
+		g(x_1,x_2) &=& f(p) + \nabla f(p) \cdot (x-p) \\
+		&=& p_1\cdot p_2 + \left(\begin{array}{c}p_2\\p_1\end{array}\right) \cdot
+		 \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right) - \left(\begin{array}{c}p_1\\p_2\end{array}\right) \right) \\
+		&=& 1 \cdot 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right)
+		 - \left(\begin{array}{c}1\\1\end{array}\right) \right) \\
+		&=& 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\begin{array}{c}x_1 - 1\\x_2 - 1\end{array}\right) \\
+		&=& 1+(x_1-1)+(x_2-1) \\
+		&=& x_1 + x_2 -1
+	\end{eqnarray*}
+	% subsection tangentialabbildung (end)
+	
+	\subsection{Taylorpolynom 2. Grades} % (fold)
+	\label{sub:taylorpolynom_2_grades}
+	
+	Taylorpolynom für $f(x_1,x_2,...,x_n)$ im Punkt $\overrightarrow{p} = (p_1,p_2,...,p_n)$:
+
+	\begin{equation}
+		T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
+		(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
+	\end{equation}
+	
+	% subsection taylorpolynom_2_grades (end)
+	% section differentialrechnung_bei_funktionen_mehrerer_variablen (end)
+	
+	\pagebreak
+	
+	\section{Kurven} % (fold)
+	\label{sec:kurven}
+	
+	\subsection{Definition} % (fold)
+	\label{sub:definition}
+	
+	Mehrdimensionale Funktionen der Form $f(t) = (f_1(t),f_2(t),...,f_n(t)), f:[a,b] \rightarrow \mathbb{R}^n$ heißen Kurven.
+	Sie haben ein Argument in $\mathbb{R}$ und mehrere Funktionswerte im $\mathbb{R}^n$.
+	% subsection definition (end)
+	
+	\subsection{Länge einer Kurve} % (fold)
+	\label{sub:länge_einer_kurve}
+	
+	Die Länge $L(\gamma)$ einer Kurve $f(t) = (f_1(t),f_2(t),...,f_n(t)), f:[a,b] \rightarrow \mathbb{R}^n$ ist gegeben durch:
+	\begin{equation}
+		L(\gamma) = \int_a^b \sqrt{f'_1(t)^2 + f'_2(t)^2 + ... + f'_n(t)^2}dt
+	\end{equation}
+	% subsection länge_einer_kurve (end)
+	
+	\subsection{Tangentialvektor/Tangente} % (fold)
+	\label{sub:tangentialvektor_tangente}
+	
+	Der Tangentialvektor einer Kurve $\gamma$ im Punkt $t_0$ ist definiert als Einheitsvektor gegeben durch: 
+	\begin{equation}
+		e(t_0) = \frac{\nabla f(t_0)}{|\nabla f(t_0)|}
+	\end{equation}
+	Die Tangente $\tau$ an $\gamma$ im Punkt $t_0$ ist demnach:
+	\begin{equation}
+		\tau : \tau(t) = f(t_0) +  t \cdot e(t_0)
+	\end{equation}
+	% subsection tangentialvektor (end)
+	% section kurven (end)
+	
+	\pagebreak
+	
+	\section{Mehrdimensionale Optimierung} % (fold)
+	\label{sec:mehrdimensionale_optimierung}
+	
+	\subsection{Optimierung ohne Nebenbedingungen} % (fold)
+	\label{sub:optimierung_ohne_nebenbedingungen}
+	Sei $f$ zweimal stetig differenzierbar bei $x_0$.
+	\\\\Stationäre Punkte (notwendige Bedingung):
+	\begin{equation}
+		\nabla f (x_0) = 0
+	\end{equation}
+	Art des Extremums (hinreichende Bedingung):
+	\begin{eqnarray}
+	H_f(x_0) = \nabla^2f(x_0) : $\ positiv definit \  \Rightarrow f $ \ ist in \ $ x_0 $ \ lokal minimal\\
+	H_f(x_0) = \nabla^2f(x_0) : $\ negativ definit \  \Rightarrow f $ \ ist in \ $ x_0 $ \ lokal maximal\\
+	H_f(x_0) = \nabla^2f(x_0) : $\ indefinit \ \Rightarrow f $ \ hat in \ $ x_0 $ \ einen Sattelpunkt
+	\end{eqnarray}
+	% subsection optimierung_ohne_nebenbedingungen (end)
+	
+	% section mehrdimensionale_optimierung (end)
+	
+	\section{Differentialgleichungen} % (fold)
+	\label{sec:differentialgleichungen}
+	
+	\subsection{Homogene lineare DGL 2. Grades mit konstanten Koeffizienten} % (fold)
+	%\label{sub:homogene_lineare_dgl_2_grades_mit_konstanten_koeffizienten}
+	Homogene lineare Differentialgleichungen 2. Grades haben die Form
+	\begin{equation}
+		y'' + ay' + by = 0
+	\end{equation}
+	Sie lassen sich lösen mithilfe der charakteristischen Gleichung
+	\begin{equation}
+		\lambda^2 + a\lambda + b = 0
+	\end{equation}
+	Lösung der Gleichung mithilfe der Lösungsformel für quadratische Gleichungen. Anhand des Wertes der Diskriminante $D$ 
+	müssen nun 3 Fälle unterschieden werden:
+	\begin{itemize}
+		
+		\item $D > 0$:
+			Tritt dieser Fall ein, erhält man 2 Lösungen für $\lambda$.\\
+			Die allgemeine Lösung der DGL lautet dann
+			\begin{equation}
+				y(x) = C_1 e^{\lambda_1 x} + C_2 e^{\lambda_2 x}
+			\end{equation} 
+		
+		\item $D = 0$: 
+			In diesem Fall gibt es eine Doppellösung für $\lambda = \lambda_1 = \lambda_2$\\
+			Die allgemeine Lösung lautet dann
+			\begin{equation}
+				y(x) = C_1 e^{\lambda x} + C_2 xe^{\lambda x} = e^{\lambda x}(C_1+C_2 x)
+			\end{equation}
+		
+		\item $D < 0$:
+			Die charakteristische Gleichung hat nun die beiden komplexen Lösungen 
+			\begin{equation}
+				\lambda_{1,2} = -\frac{a}{2} \pm i \cdot \sqrt{\left| \frac{a^2}{4}-b\right|}
+			\end{equation}
+			mit der Lösungsform
+			\begin{equation}
+				a \pm ib
+			\end{equation}
+			($a,b$ stehen in diesem Fall in keiner Verbindung zu den ursprünglichen Koeffizienten $a,b$)\\
+			Die Gleichung hat nun die allgemeine Lösung 
+			\begin{equation}
+				y(x) = C'_1 e^{ax}e^{ibx} + C'_2 e^{ax}e^{-ibx} = e^{ax} \cdot (C'_1 e^{ibx}+C'_2 e^{-ibx})
+			\end{equation}
+			Mit der Euler'schen Formel $e^{i\varphi} = cos(\varphi)+i \cdot sin(\varphi)$ lässt sich diese Form vereinfachen zu 
+			\begin{equation}
+				y(x) = e^{ax}(C_1 cos(bx) + C_2 sin(bx))
+			\end{equation}
+	\end{itemize}
+	% subsection homogene_lineare_dgl_2_grades (end)
+	% section differentialgleichungen (end)
+	
+	\pagebreak
+	
+	\section{Zusammenfassung der wichtigsten Formeln} % (fold)
+	\label{sec:zusammenfassung_der_wichtigsten_formeln}
+	
+	\subsection{Mehrdimensionale Funktionen}
+	\label{sub:mehrdimensionale_funktionen}
+	\subsubsection{Niveaulinien} 
+	\label{ssub:niveaulinien}
+	\begin{equation}
+		f(x_1,x_2,...,x_n) = y = c
+	\end{equation}	
+	
+	\subsection{Differentialrechnung bei Funktionen mehrerer Variablen}
+	\label{sub:differentialrechnung_bei_funktionen_mehrerer_variablen}
+	\subsubsection{Richtungsableitung} 
+	\label{ssub:richtungsableitung}
+	\begin{equation}
+		D_vf = \nabla f(p) \cdot \overrightarrow{v}
+	\end{equation}	
+	\subsubsection{Tangentialabbildung}
+	\label{ssub:tangentialabbildung}
+	\begin{equation}
+		g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
+	\end{equation}	
+	\subsubsection{Taylorpolynom 2. Grades}
+	\label{ssub:taylorpolynom_2_grades}
+	\begin{equation}
+		T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
+		(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
+	\end{equation}
+	\subsection{Kurven} 
+	\label{sub:kurven}
+	\subsubsection{Länge einer Kurve}
+	\label{ssub:länge_einer_kurve}
+	\begin{equation}
+		L(\gamma) = \int_a^b \sqrt{f'_1(t)^2 + f'_2(t)^2 + ... + f'_n(t)^2}dt
+	\end{equation}
+	\subsubsection{Tangentialvektor/Tangente} 
+	\label{ssub:tangentialvektor_tangente}
+	Tangentialvektor
+	\begin{equation}
+		e(t_0) = \frac{\nabla f(t_0)}{|\nabla f(t_0)|}
+	\end{equation}
+	Tangente
+	\begin{equation}
+		\tau : \tau(t) = f(t_0) +  t \cdot e(t_0)
+	\end{equation}
+	\subsection{Differentialgleichungen}
+	\label{sub:differentialgleichungen}
+	\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D>0$}
+	\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+	\begin{equation}
+		y(x) = C_1 e^{\lambda_1 x} + C_2 e^{\lambda_2 x}
+	\end{equation}	
+	\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D=0$}
+	\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+	\begin{equation}
+		y(x) = C_1 e^{\lambda x} + C_2 xe^{\lambda x} = e^{\lambda x}(C_1+C_2 x)
+	\end{equation}
+	\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D<0$}
+	\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+		\begin{equation}
+			y(x) = C'_1 e^{ax}e^{ibx} + C'_2 e^{ax}e^{-ibx} = e^{ax} \cdot (C'_1 e^{ibx}+C'_2 e^{-ibx})
+		\end{equation}
+		bzw.
+		\begin{equation}
+			y(x) = e^{ax}(C_1 cos(bx) + C_2 sin(bx))
+		\end{equation}
+
+	
+	% section zusammenfassung_der_wichtigsten_formeln (end)
+\end{document}
