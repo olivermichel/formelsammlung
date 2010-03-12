@@ -1,0 +1,53 @@
+%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+\section{Differentialgleichungen} % (fold)
+\label{sec:differentialgleichungen}
+
+\subsection{Homogene lineare DGL 2. Grades mit konstanten Koeffizienten} % (fold)
+%\label{sub:homogene_lineare_dgl_2_grades_mit_konstanten_koeffizienten}
+Homogene lineare Differentialgleichungen 2. Grades haben die Form
+\begin{equation}
+	y'' + ay' + by = 0
+\end{equation}
+Sie lassen sich lösen mithilfe der charakteristischen Gleichung
+\begin{equation}
+	\lambda^2 + a\lambda + b = 0
+\end{equation}
+Lösung der Gleichung mithilfe der Lösungsformel für quadratische Gleichungen. Anhand des Wertes der Diskriminante $D$ 
+müssen nun 3 Fälle unterschieden werden:
+\begin{itemize}
+	
+	\item $D > 0$:
+		Tritt dieser Fall ein, erhält man 2 Lösungen für $\lambda$.\\
+		Die allgemeine Lösung der DGL lautet dann
+		\begin{equation}
+			y(x) = C_1 e^{\lambda_1 x} + C_2 e^{\lambda_2 x}
+		\end{equation} 
+	
+	\item $D = 0$: 
+		In diesem Fall gibt es eine Doppellösung für $\lambda = \lambda_1 = \lambda_2$\\
+		Die allgemeine Lösung lautet dann
+		\begin{equation}
+			y(x) = C_1 e^{\lambda x} + C_2 xe^{\lambda x} = e^{\lambda x}(C_1+C_2 x)
+		\end{equation}
+	
+	\item $D < 0$:
+		Die charakteristische Gleichung hat nun die beiden komplexen Lösungen 
+		\begin{equation}
+			\lambda_{1,2} = -\frac{a}{2} \pm i \cdot \sqrt{\left| \frac{a^2}{4}-b\right|}
+		\end{equation}
+		mit der Lösungsform
+		\begin{equation}
+			a \pm ib
+		\end{equation}
+		($a,b$ stehen in diesem Fall in keiner Verbindung zu den ursprünglichen Koeffizienten $a,b$)\\
+		Die Gleichung hat nun die allgemeine Lösung 
+		\begin{equation}
+			y(x) = C'_1 e^{ax}e^{ibx} + C'_2 e^{ax}e^{-ibx} = e^{ax} \cdot (C'_1 e^{ibx}+C'_2 e^{-ibx})
+		\end{equation}
+		Mit der Euler'schen Formel $e^{i\varphi} = cos(\varphi)+i \cdot sin(\varphi)$ lässt sich diese Form vereinfachen zu 
+		\begin{equation}
+			y(x) = e^{ax}(C_1 cos(bx) + C_2 sin(bx))
+		\end{equation}
+\end{itemize}
+% subsection homogene_lineare_dgl_2_grades (end)
+% section differentialgleichungen (end)

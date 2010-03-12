@@ -1,0 +1,71 @@
+%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+\section{Zusammenfassung der wichtigsten Formeln} % (fold)
+\label{sec:zusammenfassung_der_wichtigsten_formeln}
+
+\subsection{Mehrdimensionale Funktionen}
+\label{sub:mehrdimensionale_funktionen}
+\subsubsection{Niveaulinien} 
+\label{ssub:niveaulinien}
+\begin{equation}
+	f(x_1,x_2,...,x_n) = y = c
+\end{equation}	
+
+\subsection{Differentialrechnung bei Funktionen mehrerer Variablen}
+\label{sub:differentialrechnung_bei_funktionen_mehrerer_variablen}
+\subsubsection{Richtungsableitung} 
+\label{ssub:richtungsableitung}
+\begin{equation}
+	D_vf = \nabla f(p) \cdot \overrightarrow{v}
+\end{equation}	
+\subsubsection{Tangentialabbildung}
+\label{ssub:tangentialabbildung}
+\begin{equation}
+	g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
+\end{equation}	
+\subsubsection{Taylorpolynom 2. Grades}
+\label{ssub:taylorpolynom_2_grades}
+\begin{equation}
+	T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
+	(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
+\end{equation}
+\subsection{Kurven} 
+\label{sub:kurven}
+\subsubsection{Länge einer Kurve}
+\label{ssub:länge_einer_kurve}
+\begin{equation}
+	L(\gamma) = \int_a^b \sqrt{f'_1(t)^2 + f'_2(t)^2 + ... + f'_n(t)^2}dt
+\end{equation}
+\subsubsection{Tangentialvektor/Tangente} 
+\label{ssub:tangentialvektor_tangente}
+Tangentialvektor
+\begin{equation}
+	e(t_0) = \frac{\nabla f(t_0)}{|\nabla f(t_0)|}
+\end{equation}
+Tangente
+\begin{equation}
+	\tau : \tau(t) = f(t_0) +  t \cdot e(t_0)
+\end{equation}
+\subsection{Differentialgleichungen}
+\label{sub:differentialgleichungen}
+\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D>0$}
+\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+\begin{equation}
+	y(x) = C_1 e^{\lambda_1 x} + C_2 e^{\lambda_2 x}
+\end{equation}	
+\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D=0$}
+\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+\begin{equation}
+	y(x) = C_1 e^{\lambda x} + C_2 xe^{\lambda x} = e^{\lambda x}(C_1+C_2 x)
+\end{equation}
+\subsubsection{Lösung der homogenen linearen DGL 2. Grades für $D<0$}
+\label{ssub:lösung_der_homogenen_linearen_dgl_2_grades_für_d_0}
+	\begin{equation}
+		y(x) = C'_1 e^{ax}e^{ibx} + C'_2 e^{ax}e^{-ibx} = e^{ax} \cdot (C'_1 e^{ibx}+C'_2 e^{-ibx})
+	\end{equation}
+	bzw.
+	\begin{equation}
+		y(x) = e^{ax}(C_1 cos(bx) + C_2 sin(bx))
+	\end{equation}
+
+
+% section zusammenfassung_der_wichtigsten_formeln (end)

@@ -1,0 +1,102 @@
+%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+\section{Differentialrechnung bei Funktionen mehrerer Variablen} % (fold)
+\label{sec:differentialrechnung_bei_funktionen_mehrerer_variablen}
+
+\subsection{Partielles Differenzieren} % (fold)
+\label{sub:partielles_differenzieren}
+
+Partielle Ableitung von $f$ nach $x_1$: $\frac{\partial f}{\partial x_1} f(x_1,x_2,...,x_n)$
+% subsection partielles_differenzieren (end)
+
+\subsection{Gradientenvektor} % (fold)
+\label{sub:gradientenvektor}
+Gradientenvektor $\nabla f$ zu $f(x_1,x_2,...,x_n)$: 
+\begin{equation}
+	grad(f) = \nabla f = \left(\begin{array}{c} \frac{\partial f}{\partial x_1} \\ 
+	\frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n} \end{array}\right)
+\end{equation}
+Vektor aus partiellen Ableitungen nach allen Argumenten von $f$
+% subsection gradientenvektor (end)
+
+\subsection{Hesse-Matrix} % (fold)
+\label{sub:hesse_matrix}
+Hesse-Matrix $H_f$ zu $f(x_1,x_2,...,x_n)$: 
+
+\begin{equation}
+	H_f = \nabla^2f = \left( \begin{array}{cccc}
+		\frac{\partial^2 f}{\partial x_1^\partial x_1} & \frac{\partial^2 f}{\partial x_1^\partial x_2} 
+		& \dots & \frac{\partial^2 f}{\partial x_1^\partial x_n} \\
+		
+		\frac{\partial^2 f}{\partial x_2^\partial x_1} & \frac{\partial^2 f}{\partial x_2^\partial x_2} 
+		& \dots & \frac{\partial^2 f}{\partial x_2^\partial x_n} \\	
+		\vdots & \vdots & \ddots & \vdots \\
+		\frac{\partial^2 f}{\partial x_n^\partial x_1} & \frac{\partial^2 f}{\partial x_n^\partial x_2} 
+		& \dots & \frac{\partial^2 f}{\partial x_n^\partial x_n}
+	\end{array}\right)
+\end{equation}
+% subsection hesse_matrix (end)
+
+\subsection{Jacobi-Matrix} % (fold)
+\label{sub:jacobi_matrix}
+Jacobi-Matrix $J_f(x)$ zu $f(x)$ = \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right), 
+\mathbb{R}^n \rightarrow \mathbb{R}^m:
+
+\begin{eqnarray}
+	\nabla f(x) &=& J_f(x)  = \nabla \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right) 
+	= \left( \begin{array}{c} \nabla f_1(x_1,...,x_n) \\ \vdots \\ \nabla f_m(x_1,...,x_n) \end{array} \right) \\
+	&=& \left( \begin{array}{ccc} 
+			\frac{\partial}{\partial x_1}f_1(x_1,...,x_n) & ... & \frac{\partial}{\partial x_n}f_1(x_1,...,x_n) \\
+			... & \ddots & ... \\
+			\frac{\partial}{\partial x_1}f_m(x_1,...,x_n) & ... & \frac{\partial}{\partial x_n}f_m(x_1,...,x_n)
+		\end{array}\right)
+\end{eqnarray}
+
+% subsection jacobi_matrix (end)
+
+\subsection{Richtungsableitung} % (fold)
+\label{sub:richtungsableitung}
+
+Die Richtungsableitung $D_vf$ einer Funktion $f(x_1,x_2,...,x_n)$ entlang 
+eines Vektors $\overrightarrow{v}$ ($|\overrightarrow{v}| = 1$!) 
+im Punkt $\overrightarrow{p}$ ist definiert als:
+\begin{equation}
+	D_vf = \nabla f(p) \cdot \overrightarrow{v}
+\end{equation}
+Das Ergebnis ist ein reiner Zahlenwert, der sich aus dem Skalarprodukt von $\overrightarrow{v}$ mit dem Gradienten-Vektor
+der Funktion $f$ ergibt.
+% subsection richtungsableitung (end)
+
+\subsection{Tangentialabbildung} % (fold)
+\label{sub:tangentialabbildung}
+Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n, f(x_1,x_2,...,x_n)$ = y, dann ist $g(x)$ eine affin lineare Abbildung und heißt
+\emph{Tangentialabbildung} von $f$ in \overrightarrow{p}.
+\begin{equation}
+	g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
+\end{equation}
+Beispiel: An die Funktion $f : \mathbb{R}^2 \rightarrow \mathbb{R}, f(x_1,x_2) = x_1 \cdot x_2$ soll in Punkt $\overrightarrow{p} = 
+\left(\begin{array}{c}1\\1\end{array}\right)$ eine Tangentialebene gelegt werden 
+($\nabla f = \left(\begin{array}{c}x_2\\x_1\end{array}\right)$). 
+\begin{eqnarray*}
+	g(x_1,x_2) &=& f(p) + \nabla f(p) \cdot (x-p) \\
+	&=& p_1\cdot p_2 + \left(\begin{array}{c}p_2\\p_1\end{array}\right) \cdot
+	 \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right) - \left(\begin{array}{c}p_1\\p_2\end{array}\right) \right) \\
+	&=& 1 \cdot 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right)
+	 - \left(\begin{array}{c}1\\1\end{array}\right) \right) \\
+	&=& 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\begin{array}{c}x_1 - 1\\x_2 - 1\end{array}\right) \\
+	&=& 1+(x_1-1)+(x_2-1) \\
+	&=& x_1 + x_2 -1
+\end{eqnarray*}
+% subsection tangentialabbildung (end)
+
+\subsection{Taylorpolynom 2. Grades} % (fold)
+\label{sub:taylorpolynom_2_grades}
+
+Taylorpolynom für $f(x_1,x_2,...,x_n)$ im Punkt $\overrightarrow{p} = (p_1,p_2,...,p_n)$:
+
+\begin{equation}
+	T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
+	(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
+\end{equation}
+
+% subsection taylorpolynom_2_grades (end)
+% section differentialrechnung_bei_funktionen_mehrerer_variablen (end)

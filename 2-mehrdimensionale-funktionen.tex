@@ -1,0 +1,51 @@
+%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+
+\section{Mehrdimensionale Funktionen} % (fold)
+\label{sec:mehrdimensionale_funktionen}
+\subsection{Abbildungstypen} % (fold)
+\label{sub:abbildungstypen}
+
+\subsubsection{$\mathbb{R}$ \rightarrow \mathbb{R}}
+\label{ssub:r_rightarrow_r}
+Beispiel mit 1. Ableitung:
+\begin{eqnarray*}
+	f(x) &=& sin(x)cos(x) \\
+	f'(x) &=& cos^2(x)-sin^2(x)
+\end{eqnarray*}
+
+\subsubsection{$\mathbb{R}$ \rightarrow \mathbb{R}^n}
+\label{ssub:r_rightarrow_r}
+Beispiel mit 1. Ableitung (Ableitungsvektor):
+\begin{eqnarray*}
+	f(t) &=& \left(\begin{array}{c} cos(t)) \\ sin(t))\end{array}\right) \\
+	\nabla f(t) &=& \left( \begin{array}{c} -sin(t) \\ cos(t)\end{array} \right)
+\end{eqnarray*}
+
+\subsubsection{$\mathbb{R}^n$ \rightarrow \mathbb{R}}
+\label{ssub:r_rightarrow_r}
+Beispiel mit 1. Ableitung (Gradientenvektor):
+\begin{eqnarray*}
+	f(x_1,x_2) &=& sin(x_1)cos(x_2) \\
+	\nabla f(x_1,x_2) &=& \left( \begin{array}{c} cos(x_1) cos(x_2) \\ -sin(x_1)sin(x_2) \end{array} \right)
+\end{eqnarray*}
+	
+\subsubsection{$\mathbb{R}^n$ \rightarrow \mathbb{R}^m}
+\label{ssub:r_rightarrow_r}
+Beispiel mit 1. Ableitung (Jacobi-Matrix): 
+\begin{eqnarray*}
+	f(x_1,x_2) &=& \left(\begin{array}{c} sin(x_1) \\ cos(x_2)\end{array}\right) \\
+	\nabla f(x_1,x_2) = J_f &=& \left( \begin{array}{cc} cos(x_1) & 0 \\ 0 & -sin(x_2) \end{array} \right)
+\end{eqnarray*}	
+% subsection abbildungstypen (end)
+
+\subsection{Niveaulinien} % (fold)
+\label{sub:niveaulinien}
+
+\begin{equation}
+	f(x_1,x_2,...,x_n) = y = c
+\end{equation}
+Auflösen nach $x_2$ und Niveauebenen für $c$ einsetzen.
+
+% subsection niveaulinien (end)
+
+% section funktionen_mehrerer_variablen (end)
