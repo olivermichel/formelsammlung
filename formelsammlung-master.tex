@@ -6,10 +6,10 @@
 %
 
 \documentclass[a4paper,11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{fullpage, listings, ngerman, graphicx, hyperref, fancyhdr, multicol, amssymb, setspace}
+\usepackage[utf8x]{inputenc}
+\usepackage{fullpage, listings, ngerman, graphicx, hyperref, fancyhdr, multicol, amssymb, amsmath, setspace}
 
-\title{Formel- und Verfahrensammlung\\Mathematik 1/2 - Bachelor Informatik}
+\title{Formel- und Verfahrensammlung\\Mathematik 1/2 -- Bachelor Informatik}
 \author{Oliver Michel\\Universität Wien}
 \date{\today}
 
@@ -21,18 +21,18 @@
 	\tableofcontents
 
 	\pagebreak
-	\include{1-grundlagen.tex}
+	\input{1-grundlagen}
 	\pagebreak
-	\include{2-mehrdimensionale-funktionen.tex}
+	\input{2-mehrdimensionale-funktionen}
 	\pagebreak
-	\include{3-differentialrechnung-mehrerer-var.tex}
+	\input{3-differentialrechnung-mehrerer-var}
 	\pagebreak
-	\include{4-kurven.tex}
+	\input{4-kurven}
 	\pagebreak
-	\include{5-mehrdimensionale-optimierung.tex}
-	\pagebreak
-	\include{6-differentialgleichungen.tex}
-	\pagebreak
-	\include{n-zusammenfassung.tex}
+%	\input{5-mehrdimensionale-optimierung}
+%	\pagebreak
+%	\input{6-differentialgleichungen}
+%	\pagebreak
+%	\input{n-zusammenfassung}
 
 \end{document}

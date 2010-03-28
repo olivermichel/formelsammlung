@@ -1,4 +1,4 @@
-%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+%!TEX root = formelsammlung-master.tex
 
 \section{Grundlagen} 
 \label{sec:grundlagen}
@@ -42,7 +42,6 @@
 	(u \circ v)' = u'(v) \cdot v'
 \end{equation}
 Beispiel: $(sin(x^2))' = cos(x^2) \cdot 2x$
-% subsection ableitungsregeln (end)
 
 \subsection{Besondere Ableitungen} 
 \label{sub:besondere_ableitungen}
@@ -65,13 +64,11 @@ Beispiel: $(sin(x^2))' = cos(x^2) \cdot 2x$
 \end{eqnarray}
 
 \subsubsection{Logarithmusfunktionen}
-\label{ssub:exponentialfunktionen}	
+\label{ssub:logarithmusfunktionen}	
 \begin{eqnarray}
 	(ln(x))' &=& \frac{1}{x} \\
-	(log_b(x))' &=& \frac{1}{x\cdotln(b)}
+	(log_b(x))' &=& \frac{1}{x \cdot ln(b)}
 \end{eqnarray}	
-
-% subsection besondere_ableitungen (end)
 
 \subsection{Integration} 
 \label{sub:integration}
@@ -96,7 +93,6 @@ Wenn der Exponent der Exponentialfunktion eine lineare Funktion der Form $mx+c$ 
 \begin{equation}
 	\int_a^b (u \cdot v') dx = \left[u \cdot v \right]^a_b - \int_a^b (u' \cdot v) dx
 \end{equation}
-% subsection integration (end)
 
 \subsection{Vektoren} 
 \label{sub:vektoren}
@@ -137,8 +133,6 @@ Wenn der Exponent der Exponentialfunktion eine lineare Funktion der Form $mx+c$ 
 	|\overrightarrow{v}| = \sqrt{v_1^2 + v_2^2 + v_3^2}
 \end{equation}
 
-% subsection vektoren (end)
-
 \subsection{Matrizzen} 
 \label{sub:matrizzen}
 
@@ -167,8 +161,8 @@ aus der Multiplikation der jeweiligen Zeile der Matrix mit dem gesamten Vektor (
 \\Beispiel:
 \begin{equation}
 	\left(\begin{array}{c}1\\2\end{array}\right) \cdot \left(\begin{array}{cc}3 & 4\\5 & 6\end{array}\right)
-	= \left(\begin{array}{c}1 \cdot 3 + 2 \cdot 4 \\ 1 \cdot 5 + 2 \cdot 6\end{array}\right)
-	= \left(\begin{array}{c}11\\17\end{array}\right)
+	= \left(\begin{array}{c}1 \cdot 3 + 2 \cdot 4 
+	\\ 1 \cdot 5 + 2 \cdot 6 \end{array}\right) = \left(\begin{array}{c}11\\17\end{array}\right)
 \end{equation}
 
 \subsubsection{Kriterium von Sylvester}
@@ -180,8 +174,6 @@ Eine symmetrische Matrix $A$ ist
 	\item negativ definit, wenn ihre Hauptminoren alternierend negativ und positiv sind.
 	\item indefinit, wenn keine der beiden oberen Kriterien zutrifft.
 \end{itemize}
-
-% subsection matrizzen (end)
 
 \subsection{Kreise} 
 \label{sub:kreise}
@@ -201,5 +193,3 @@ Handelt es sich um einen Einheitskreis um den Ursprung lautet die Gleichung also
 \begin{equation}
 	y = \pm \sqrt{1-x^2}
 \end{equation}
-% subsection kreise (end)
-% section grundlagen (end)

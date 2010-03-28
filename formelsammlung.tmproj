@@ -2,17 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>formelsammlung-master.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-03-12T13:42:28Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2010-03-28T19:06:31Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -21,43 +17,45 @@
 					<key>filename</key>
 					<string>1-grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:37:19Z</date>
+					<date>2010-03-28T19:06:33Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>2-mehrdimensionale-funktionen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:35:59Z</date>
+					<date>2010-03-28T19:06:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>3-differentialrechnung-mehrerer-var.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:38:17Z</date>
+					<date>2010-03-28T19:06:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>4-kurven.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:39:14Z</date>
+					<date>2010-03-28T19:06:31Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>5-mehrdimensionale-optimierung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:40:25Z</date>
+					<date>2010-03-27T21:36:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>6-differentialgleichungen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:41:30Z</date>
+					<date>2010-03-27T21:36:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>n-zusammenfassung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-12T13:42:28Z</date>
+					<date>2010-03-27T21:36:20Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -69,155 +67,16 @@
 			<key>filename</key>
 			<string>README</string>
 			<key>lastUsed</key>
-			<date>2010-03-12T13:36:00Z</date>
+			<date>2010-03-12T13:48:13Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>295</integer>
 	<key>metaData</key>
-	<dict>
-		<key>1-grundlagen.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>185</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>2-mehrdimensionale-funktionen.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>3-differentialrechnung-mehrerer-var.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>101</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>53</integer>
-		</dict>
-		<key>4-kurven.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>32</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>5-mehrdimensionale-optimierung.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>6-differentialgleichungen.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>52</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>5</integer>
-		</dict>
-		<key>README</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>69</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>formelsammlung-master.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>73</integer>
-				<key>line</key>
-				<integer>11</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>n-zusammenfassung.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>70</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>23</integer>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>formelsammlung-master.tex</string>
-		<string>n-zusammenfassung.tex</string>
-		<string>6-differentialgleichungen.tex</string>
-		<string>5-mehrdimensionale-optimierung.tex</string>
-		<string>4-kurven.tex</string>
-		<string>3-differentialrechnung-mehrerer-var.tex</string>
-		<string>2-mehrdimensionale-funktionen.tex</string>
-		<string>README</string>
-		<string>1-grundlagen.tex</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{544, 122}, {1158, 904}}</string>
+	<string>{{570, 69}, {1158, 904}}</string>
 </dict>
 </plist>

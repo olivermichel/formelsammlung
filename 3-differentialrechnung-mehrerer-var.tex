@@ -1,4 +1,4 @@
-%!TEX root = /Users/olivermichel/Repositories/formelsammlung/formelsammlung-master.tex
+%!TEX root = formelsammlung-master.tex
 \section{Differentialrechnung bei Funktionen mehrerer Variablen} % (fold)
 \label{sec:differentialrechnung_bei_funktionen_mehrerer_variablen}
 
@@ -38,8 +38,8 @@ Hesse-Matrix $H_f$ zu $f(x_1,x_2,...,x_n)$:
 
 \subsection{Jacobi-Matrix} % (fold)
 \label{sub:jacobi_matrix}
-Jacobi-Matrix $J_f(x)$ zu $f(x)$ = \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right), 
-\mathbb{R}^n \rightarrow \mathbb{R}^m:
+Jacobi-Matrix $J_f(x)$ zu $f(x) = \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right), 
+\mathbb{R}^n \rightarrow \mathbb{R}^m$:
 
 \begin{eqnarray}
 	\nabla f(x) &=& J_f(x)  = \nabla \left( \begin{array}{c}f_1(x)\\\vdots\\f_m(x)\end{array}\right) 
@@ -68,8 +68,8 @@ der Funktion $f$ ergibt.
 
 \subsection{Tangentialabbildung} % (fold)
 \label{sub:tangentialabbildung}
-Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n, f(x_1,x_2,...,x_n)$ = y, dann ist $g(x)$ eine affin lineare Abbildung und heißt
-\emph{Tangentialabbildung} von $f$ in \overrightarrow{p}.
+Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n, f(x_1,x_2,...,x_n) = y$, dann ist $g(x)$ eine affin lineare Abbildung und heißt
+\emph{Tangentialabbildung} von $f$ in $\overrightarrow{p}$.
 \begin{equation}
 	g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
 \end{equation}
@@ -86,7 +86,6 @@ Beispiel: An die Funktion $f : \mathbb{R}^2 \rightarrow \mathbb{R}, f(x_1,x_2) =
 	&=& 1+(x_1-1)+(x_2-1) \\
 	&=& x_1 + x_2 -1
 \end{eqnarray*}
-% subsection tangentialabbildung (end)
 
 \subsection{Taylorpolynom 2. Grades} % (fold)
 \label{sub:taylorpolynom_2_grades}
@@ -97,6 +96,3 @@ Taylorpolynom für $f(x_1,x_2,...,x_n)$ im Punkt $\overrightarrow{p} = (p_1,p_2,
 	T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
 	(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
 \end{equation}
-
-% subsection taylorpolynom_2_grades (end)
-% section differentialrechnung_bei_funktionen_mehrerer_variablen (end)
