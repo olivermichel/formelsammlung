@@ -45,3 +45,19 @@
 \contentsline {subsection}{\numberline {4.2}Tangentialvektor/Tangente}{10}{subsection.4.2}
 \contentsline {section}{\numberline {5}Mehrdimensionale Optimierung}{11}{section.5}
 \contentsline {subsection}{\numberline {5.1}Optimierung ohne Nebenbedingungen}{11}{subsection.5.1}
+\contentsline {section}{\numberline {6}Differentialgleichungen}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{12}{subsection.6.1}
+\contentsline {section}{\numberline {7}Zusammenfassung der wichtigsten Formeln}{13}{section.7}
+\contentsline {subsection}{\numberline {7.1}Mehrdimensionale Funktionen}{13}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Niveaulinien}{13}{subsubsection.7.1.1}
+\contentsline {subsection}{\numberline {7.2}Differentialrechnung bei Funktionen mehrerer Variablen}{13}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Richtungsableitung}{13}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Tangentialabbildung}{13}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.3}Taylorpolynom 2. Grades}{13}{subsubsection.7.2.3}
+\contentsline {subsection}{\numberline {7.3}Kurven}{13}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}L\IeC {\"a}nge einer Kurve}{13}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Tangentialvektor/Tangente}{13}{subsubsection.7.3.2}
+\contentsline {subsection}{\numberline {7.4}Differentialgleichungen}{13}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}L\IeC {\"o}sung der homogenen linearen DGL 2. Grades f\IeC {\"u}r $D>0$}{13}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}L\IeC {\"o}sung der homogenen linearen DGL 2. Grades f\IeC {\"u}r $D=0$}{13}{subsubsection.7.4.2}
+\contentsline {subsubsection}{\numberline {7.4.3}L\IeC {\"o}sung der homogenen linearen DGL 2. Grades f\IeC {\"u}r $D<0$}{14}{subsubsection.7.4.3}
