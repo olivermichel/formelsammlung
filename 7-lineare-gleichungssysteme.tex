@@ -1,0 +1,45 @@
+%!TEX root = formelsammlung-master.tex
+
+\section{Lineare Gleichungssysteme}
+\label{sec:lineare_gleichungssysteme}
+
+\subsection{Lösen von bestimmten LGS}
+\label{sub:lösen_von_bestimmten_lgs}
+
+Lösung durch Gauss-Algorithmus $\Rightarrow$ 3 Möglichkeiten:
+
+\begin{itemize}
+	\item 1 eindeutige Lösung, z.B. $3z = 9$
+	\item keine Lösung (inkosistent), z.B. $0z = 2$
+	\item unendlich viele Lösungen (undeterministisch), z.B. $0z = 0$
+\end{itemize}
+
+\subsection{Schnittgerade bei undeterministischen LGS}
+\label{sub:schnittgerade_bei_undeterministischen_lgs}
+
+Bei unendlich vielen Lösungen kann eine Variable substituiert werden (z.B. $x_3 = \lambda$) $\Rightarrow \lambda$ 
+in I, II einsetzen und nach $x_1, x_2, x_3$ lösen.\\
+Gleichungssystem nach Gauss-Algorithmus:
+\begin{displaymath}
+	\left(\begin{matrix}
+		1 & 1 & 1 \\ 0 & 1 & -2 \\ 0 & 0 & 0
+	\end{matrix}\right)	
+	= \left(\begin{matrix}
+		4 \\ 1 \\ 0
+	\end{matrix}\right) \Rightarrow x_3 = \lambda
+\end{displaymath}
+Einsetzen in II:
+\begin{displaymath} x_2 - 2 \lambda = 1 \Leftrightarrow x_2 = -1 + 2 \lambda \end{displaymath}
+Einsetzen in III:
+\begin{displaymath} x_1 + (2\lambda -1) + \lambda = 4 \Leftrightarrow x_1 = 5 - 3\lambda \end{displaymath}
+Daraus ergibt sich die Geradengleichung
+\begin{displaymath}
+	g: \overrightarrow{x} = \left(\begin{matrix}5\\-1\\0\end{matrix}\right) + \lambda
+	\left(\begin{matrix}-3\\2\\1\end{matrix}\right)
+\end{displaymath}
+
+\subsection{Rang einer Matrix}
+\label{sub:rang_einer_matrix}
+Der Rang einer Matrix ist definiert als die Anzahl der nicht-verschwindenden Zeilen bzw. Spaltenvektoren nach Anwendung
+des Gauss-Algorithmus. Aus dem Rang der erweiterten Koeffizientenmatrix eines LGS lässt sich die Lösbarkeit dieses
+Systems erkennen.
