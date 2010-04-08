@@ -175,6 +175,36 @@ Eine symmetrische Matrix $A$ ist
 	\item indefinit, wenn keine der beiden oberen Kriterien zutrifft.
 \end{itemize}
 
+\subsubsection{Rang einer Matrix}
+\label{ssub:rang_einer_matrix}
+Der Rang einer Matrix ist definiert als die Anzahl der nicht-verschwindenden Zeilen bzw. Spaltenvektoren nach Anwendung
+des Gauss-Algorithmus. Aus dem Rang der erweiterten Koeffizientenmatrix eines LGS lässt sich die Lösbarkeit dieses
+Systems erkennen.\\ \\
+Eine $n \times n$-Matrix mit vollem Rang $n$ heißt \emph{regulär}.\\
+Hat die Matrix nicht vollen Rang, heißt sie \emph{singulär}.
+
+\subsubsection{Matrixinversionen} 
+\label{ssub:matrixinversionen}
+
+Für eine reguläre Matrix $A$ existiert eine inverse Matrix $A^{-1}$, für die gilt\footnote{$I$ beschreibt hierbei
+ die Einheitsmatrix (Identität)}: 
+\begin{equation}
+	A^{-1} \cdot A = A \cdot A^{-1} = I
+\end{equation}
+
+Die inverse Matrix lässt sich durch das Gleichungssystem $A = I$ bestimmen. Dabei wird der Gauss-Algorithmus solange
+angewendet bis auf der linken Seite die Identität steht.\\\\
+Beispiel:
+\begin{displaymath}
+	\left(\begin{matrix}1 & 2 & 0\\2 & 3 & 0 \\ 3 & 4 & 1\end{matrix}\right) = 
+	\left(\begin{matrix}1 & 0 & 0\\0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\right)
+\end{displaymath}
+wird durch Anwendung des Gauss-Algorithmus zu
+\begin{displaymath}
+	\left(\begin{matrix}1 & 0 & 0\\0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\right) = 
+	\left(\begin{matrix}-3 & 2 & 0\\2 & -1 & 0 \\ 1 & -2 & 1\end{matrix}\right)
+\end{displaymath}
+
 \subsection{Kreise} 
 \label{sub:kreise}
 

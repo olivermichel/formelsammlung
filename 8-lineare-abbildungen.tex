@@ -1,0 +1,50 @@
+%!TEX root = formelsammlung-master.tex
+
+\section{Lineare Abbildungen}
+\label{sec:lineare_abbildungen}
+
+\subsection{Definition}
+\label{sub:definition}
+
+Eine Funktion $f : A \to B$ zwischen den Vektorräumen $A$ und $B$ heißt \emph{linear}, wenn gilt:
+\begin{eqnarray}
+	f(x+y) &=& f(x) + f(y) \\
+	f(\lambda x) &=& \lambda f(x)
+\end{eqnarray}
+
+\subsection{Matrixdarstellung}
+\label{sub:matrixdarstellung}
+
+Eine lineare Abbildung wird in der Regel als Matrix dargetellt. So ist die Lineare Abbildung
+\begin{displaymath}
+	f(x) = \left(\begin{matrix}3x_2 - x_3\\x_3 + 2x_2\\x_2 - 5x_1\end{matrix}\right)
+\end{displaymath}
+äquivalent zu: 
+\begin{displaymath}
+	f(x) = A_fx = \left(\begin{matrix}0 & 3 & -1 \\ 0 & 2 & 1 \\ -5 & 1 & 0\end{matrix}\right) 
+	\left(\begin{matrix}x_1\\x_2\\x_3\end{matrix}\right)
+\end{displaymath}
+
+\subsection{Verkettung linearer Abbildungen}
+\label{sub:verkettung_linearer_abbildungen}
+
+Eine Abbildung $f_1 \circ f_2$ heißt \emph{Verkettung} von $f_1$ und $f_2$. Dabei gilt:
+\begin{equation}
+	f_1: \mathbb{R}^m \to \mathbb{R}^k    \wedge    f_2: \mathbb{R}^k \to \mathbb{R}^n
+	\Rightarrow f_1 \circ f_2 : \mathbb{R}^m \to \mathbb{R}^n
+\end{equation}
+Die verkettete Abbildung ergibt sich durch Multiplikation der Abbildungsmatrizen: 
+\begin{equation}
+	(f_1 \circ f_2)(x) = BAx
+\end{equation}
+Dabei ist zu beachten, dass die Multiplikation von Matrizen nicht kommutativ ist.
+
+\subsection{Umkehrung linearer Abbildungen}
+\label{sub:umkehrung_linearer_abbildungen}
+
+Ist die Abbildungsmatrix $A$ eine reguläre Matrix so lautet die Umkehrung der Abbildung $f$
+\begin{equation}
+	f^{-1}(x) = A^{-1}x.
+\end{equation}
+
+

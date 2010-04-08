@@ -23,8 +23,10 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Matrixmultiplikation}{6}{subsubsection.1.5.1}
 \contentsline {subsubsection}{\numberline {1.5.2}Multiplikation eines Vektors mit einer Matrix}{6}{subsubsection.1.5.2}
 \contentsline {subsubsection}{\numberline {1.5.3}Kriterium von Sylvester}{6}{subsubsection.1.5.3}
-\contentsline {subsection}{\numberline {1.6}Kreise}{6}{subsection.1.6}
-\contentsline {subsubsection}{\numberline {1.6.1}Kreisgleichung}{6}{subsubsection.1.6.1}
+\contentsline {subsubsection}{\numberline {1.5.4}Rang einer Matrix}{6}{subsubsection.1.5.4}
+\contentsline {subsubsection}{\numberline {1.5.5}Matrixinversionen}{7}{subsubsection.1.5.5}
+\contentsline {subsection}{\numberline {1.6}Kreise}{7}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}Kreisgleichung}{7}{subsubsection.1.6.1}
 \contentsline {section}{\numberline {2}Mehrdimensionale Funktionen}{8}{section.2}
 \contentsline {subsection}{\numberline {2.1}Abbildungstypen}{8}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}$\mathbb {R} \rightarrow \mathbb {R}$}{8}{subsubsection.2.1.1}
@@ -50,4 +52,8 @@
 \contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{14}{section.7}
 \contentsline {subsection}{\numberline {7.1}L\IeC {\"o}sen von bestimmten LGS}{14}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Schnittgerade bei undeterministischen LGS}{14}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Rang einer Matrix}{14}{subsection.7.3}
+\contentsline {section}{\numberline {8}Lineare Abbildungen}{15}{section.8}
+\contentsline {subsection}{\numberline {8.1}Definition}{15}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{15}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{15}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Umkehrung linearer Abbildungen}{15}{subsection.8.4}
