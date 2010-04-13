@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>7-lineare-gleichungssysteme.tex</string>
+	<string>10-determinanten.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-04-02T10:59:35Z</date>
+			<date>2010-04-09T16:17:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -25,7 +25,7 @@
 					<key>filename</key>
 					<string>1-grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-03T12:19:13Z</date>
+					<date>2010-04-09T16:09:07Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -37,7 +37,7 @@
 					<key>filename</key>
 					<string>3-differentialrechnung-mehrerer-var.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-03T09:31:26Z</date>
+					<date>2010-04-08T13:06:16Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -49,25 +49,45 @@
 					<key>filename</key>
 					<string>5-mehrdimensionale-optimierung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-03T09:31:31Z</date>
+					<date>2010-04-08T13:06:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>6-differentialgleichungen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-07T17:48:35Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>n-zusammenfassung.tex</string>
-					<key>lastUsed</key>
-					<date>2010-04-03T09:31:32Z</date>
+					<date>2010-04-08T13:06:07Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>7-lineare-gleichungssysteme.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-07T17:49:30Z</date>
+					<date>2010-04-09T16:08:37Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>8-lineare-abbildungen.tex</string>
+					<key>lastUsed</key>
+					<date>2010-04-09T16:08:57Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>9-eigenwerte-eigenvektoren.tex</string>
+					<key>lastUsed</key>
+					<date>2010-04-09T16:09:32Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>10-determinanten.tex</string>
+					<key>lastUsed</key>
+					<date>2010-04-09T16:17:49Z</date>
+					<key>selected</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>n-zusammenfassung.tex</string>
+					<key>lastUsed</key>
+					<date>2010-04-08T13:06:17Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -77,7 +97,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>221</integer>
+	<integer>207</integer>
 	<key>metaData</key>
 	<dict>
 		<key>1-grundlagen.tex</key>
@@ -85,14 +105,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>53</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>204</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>95</integer>
+			<integer>170</integer>
+		</dict>
+		<key>10-determinanten.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>67</integer>
+				<key>line</key>
+				<integer>31</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>2-mehrdimensionale-funktionen.tex</key>
 		<dict>
@@ -120,7 +154,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>34</integer>
+			<integer>52</integer>
 		</dict>
 		<key>4-kurven.tex</key>
 		<dict>
@@ -164,7 +198,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>10</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -185,28 +219,72 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>9</integer>
+				<integer>38</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>formelsammlung-master.tex</key>
+		<key>8-lineare-abbildungen.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>94</integer>
+				<key>line</key>
+				<integer>54</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>8</integer>
+		</dict>
+		<key>9-eigenwerte-eigenvektoren.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>41</integer>
+				<integer>0</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>formelsammlung-master.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<key>n-zusammenfassung.tex</key>
 		<dict>
@@ -227,6 +305,9 @@
 	<array>
 		<string>formelsammlung-master.tex</string>
 		<string>7-lineare-gleichungssysteme.tex</string>
+		<string>8-lineare-abbildungen.tex</string>
+		<string>9-eigenwerte-eigenvektoren.tex</string>
+		<string>10-determinanten.tex</string>
 		<string>1-grundlagen.tex</string>
 		<string>n-zusammenfassung.tex</string>
 		<string>5-mehrdimensionale-optimierung.tex</string>
@@ -237,17 +318,7 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
-	<key>treeState</key>
-	<dict>
-		<key>Sections</key>
-		<dict>
-			<key>isExpanded</key>
-			<true/>
-			<key>subItems</key>
-			<dict/>
-		</dict>
-	</dict>
 	<key>windowFrame</key>
-	<string>{{265, 0}, {1005, 778}}</string>
+	<string>{{41, 0}, {1022, 778}}</string>
 </dict>
 </plist>
