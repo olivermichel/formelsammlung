@@ -1,0 +1,32 @@
+%!TEX root = formelsammlung-master.tex
+
+\section{Determinanten}
+\label{sec:determinanten}
+
+\subsection{Definition}
+\label{sub:definition}
+
+Die Determinante $|A|$ der Matrix $A$ ist ein Skalar, mit dessen Hilfe Aussagen über die jeweilige Matrix getroffen
+werden können.
+\begin{itemize}
+	\item Ist die Determinante $|A| = 0$, sind die Spaltenvektoren linear abhängig.
+	\item Ist die Determinante $|A| \neq 0$, ist $A$ regulär und somit invertierbar.
+\end{itemize}
+
+\subsection{Regel von Sarrus}
+\label{sub:regel_von_sarrus}
+
+Die Regel von Sarrus wird primär auf $2 \times 2$ und $3 \times 3$ - Matrizzen angewendet. So kann die Determinante
+einer Matrix folgendermaßen berechnet werden: 
+\begin{displaymath}
+	\left| \begin{matrix}a & b \\ c & d\end{matrix}\right| = ad - cb
+\end{displaymath}
+Analog dazu gilt:
+\begin{displaymath}
+	\left| \begin{matrix}a & b & c \\ d & e & f \\ g & h & i \end{matrix} \right| = aei + bfg + cdh - (gec + hfa + idb)
+\end{displaymath}
+
+\subsection{Entwicklungssatz von Laplace}
+\label{sub:entwicklungssatz_von_laplace}
+Mithilfe des Entwicklungssatzes können Determinanten rekursiv berechnet werden, sodass letztendlich nur noch ^
+Determinanten von $2 \times 2$ - Matrizzen berechnet werden müssen.
