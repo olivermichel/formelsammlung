@@ -69,16 +69,12 @@ Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n, f(x_1,x_2,...,x_n) = y$, dann is
 	g(x) = f(\overrightarrow{p}) + \nabla f(\overrightarrow{p})\cdot(\overrightarrow{x}-\overrightarrow{p})
 \end{equation}
 Beispiel: An die Funktion $f : \mathbb{R}^2 \rightarrow \mathbb{R}, f(x_1,x_2) = x_1 \cdot x_2$ soll in Punkt $\overrightarrow{p} = 
-\left(\begin{array}{c}1\\1\end{array}\right)$ eine Tangentialebene gelegt werden 
+\left(\begin{array}{c}1\\1\end{array}\right)$ eine Tangentialebene gelegt werden:
 ($\nabla f = \left(\begin{array}{c}x_2\\x_1\end{array}\right)$). 
 \begin{eqnarray*}
 	g(x_1,x_2) &=& f(p) + \nabla f(p) \cdot (x-p) \\
 	&=& p_1\cdot p_2 + \left(\begin{array}{c}p_2\\p_1\end{array}\right) \cdot
 	 \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right) - \left(\begin{array}{c}p_1\\p_2\end{array}\right) \right) \\
-	&=& 1 \cdot 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\left(\begin{array}{c}x_1\\x_2\end{array}\right)
-	 - \left(\begin{array}{c}1\\1\end{array}\right) \right) \\
-	&=& 1 + \left(\begin{array}{c}1\\1\end{array}\right) \cdot \left(\begin{array}{c}x_1 - 1\\x_2 - 1\end{array}\right) \\
-	&=& 1+(x_1-1)+(x_2-1) \\
 	&=& x_1 + x_2 -1
 \end{eqnarray*}
 

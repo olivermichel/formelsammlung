@@ -7,13 +7,14 @@
 
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8x]{inputenc}
-\usepackage{fullpage, listings, ngerman, graphicx, hyperref, fancyhdr, multicol, amssymb, amsmath, setspace}
+\usepackage[ngerman]{babel}  
+\usepackage{fullpage, listings, ngerman, graphicx, fancyhdr, multicol, amssymb, amsmath}
 
 \title{Formel- und Verfahrensammlung\\Mathematik 1/2 -- Bachelor Informatik}
 \author{Oliver Michel\\Universität Wien}
 \date{\today}
 
-\onehalfspacing
+\numberwithin{equation}{section}
 
 \begin{document}
 		
@@ -22,25 +23,15 @@
 
 	\pagebreak
 	\input{1-grundlagen}
-	\pagebreak
 	\input{2-mehrdimensionale-funktionen}
-	\pagebreak
 	\input{3-differentialrechnung-mehrerer-var}
-	\pagebreak
 	\input{4-kurven}
-	\pagebreak
 	\input{5-mehrdimensionale-optimierung}
-	\pagebreak
 	\input{6-differentialgleichungen}
-	\pagebreak
 	\input{7-lineare-gleichungssysteme}
-	\pagebreak
 	\input{8-lineare-abbildungen}
-	\pagebreak
 	\input{9-eigenwerte-eigenvektoren}
-	\pagebreak
 	\input{10-determinanten}
-	%\pagebreak
 	%\input{n-zusammenfassung}
 
 \end{document}

@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>10-determinanten.tex</string>
+	<string>formelsammlung-master.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-04-09T16:17:49Z</date>
+			<date>2010-04-27T12:14:14Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -25,7 +27,7 @@
 					<key>filename</key>
 					<string>1-grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-09T16:09:07Z</date>
+					<date>2010-04-13T13:13:52Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -80,8 +82,6 @@
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
 					<date>2010-04-09T16:17:49Z</date>
-					<key>selected</key>
-					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -277,14 +277,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>42</integer>
+				<integer>40</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>n-zusammenfassung.tex</key>
 		<dict>
@@ -306,8 +306,6 @@
 		<string>formelsammlung-master.tex</string>
 		<string>7-lineare-gleichungssysteme.tex</string>
 		<string>8-lineare-abbildungen.tex</string>
-		<string>9-eigenwerte-eigenvektoren.tex</string>
-		<string>10-determinanten.tex</string>
 		<string>1-grundlagen.tex</string>
 		<string>n-zusammenfassung.tex</string>
 		<string>5-mehrdimensionale-optimierung.tex</string>
@@ -317,8 +315,8 @@
 		<string>6-differentialgleichungen.tex</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{41, 0}, {1022, 778}}</string>
+	<string>{{211, 163}, {1022, 778}}</string>
 </dict>
 </plist>
