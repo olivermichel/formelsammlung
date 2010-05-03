@@ -11,3 +11,42 @@ Abbildung in seiner Richtung nicht verändert wird.\\
 Lediglich Streckungen und Stauchungen sind möglich. Den Faktor der entsprechenden 
 Streckung oder Stauchung ist dann der passende Eigenwert zum Eigenvektor.\\
 Der Null-Vektor ist trivialerweise natürlich auch ein Eigenvektor jeder lin. Abbildung, wird jedoch nicht beachtet.
+
+\subsection{Charakteristisches Polynom}
+\label{sub:charakteristisches_polynom}
+
+Das charakteristische Polynom, welches für quadratische Matrizen definiert ist, gibt Auskunft über Eigenschaften
+der jeweiligen Matrix. Mithilfe des charakteristischen Polynoms lassen sich die Eigenwerte einer Matrix bestimmen.
+
+Das charakteristische Polynom $\chi$ einer quadratischen Matrix $A$ in Abhängigkeit von $\lambda$ 
+ist definiert als 
+\begin{equation}
+	\chi_A(\lambda) = |\lambda I-A|
+\end{equation}
+Sei eine Matrix $A$ gegeben durch
+\begin{displaymath}
+	A = \left( \begin{matrix}1 & 0 & 1 \\ 2 & 2 & 1 \\ 4 & 2 & 1 \end{matrix} \right)
+\end{displaymath}
+dann ist das charakteristische Polynom
+\begin{displaymath}
+	|\lambda I-A| 
+	= \left| \begin{matrix}\lambda-1 & 0 & -1 \\ -2 & \lambda-2 & -1 \\ -4 & -2 & \lambda-1 \end{matrix} \right|
+	= \lambda^3 - 4 \lambda^2 - \lambda + 4 = (\lambda - 1)(\lambda + 1)(\lambda - 4)
+\end{displaymath}
+
+\subsection{Charakteristische Gleichung}
+\label{sub:charakteristische_gleichung}
+
+Setzt man das charakteristische Polynom einer Matrix gleich 0, ergibt sich die charakteristische Gleichung.
+\begin{equation}
+	\chi_A(\lambda) = |\lambda I-A| = 0
+\end{equation}
+Die Lösungen der charakteristischen Gleichung zu $A$ sind die Eigenwerte von $A$.
+
+\subsection{Eigenvektoren}
+\label{sub:eigenvektoren}
+
+Der zu einem Eigenwert $\lambda_i$ gehörende Eigenvektor $\overrightarrow{e_i}$ ergibt sich durch Lösung der Gleichung
+\begin{equation}
+	(A - \lambda_i I)\overrightarrow{e_i} = 0
+\end{equation}
