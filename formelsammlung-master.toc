@@ -1,66 +1,68 @@
-\contentsline {section}{\numberline {1}Grundlagen}{2}
-\contentsline {subsection}{\numberline {1.1}Ableitungsregeln}{2}
-\contentsline {subsubsection}{\numberline {1.1.1}Faktorregel}{2}
-\contentsline {subsubsection}{\numberline {1.1.2}Summenregel}{2}
-\contentsline {subsubsection}{\numberline {1.1.3}Potenzregel}{2}
-\contentsline {subsubsection}{\numberline {1.1.4}Produktregel}{2}
-\contentsline {subsubsection}{\numberline {1.1.5}Quotientenregel}{2}
-\contentsline {subsubsection}{\numberline {1.1.6}Kettenregel}{2}
-\contentsline {subsection}{\numberline {1.2}Besondere Ableitungen}{2}
-\contentsline {subsubsection}{\numberline {1.2.1}Winkelfunktionen}{2}
-\contentsline {subsubsection}{\numberline {1.2.2}Exponentialfunktionen}{2}
-\contentsline {subsubsection}{\numberline {1.2.3}Logarithmusfunktionen}{2}
-\contentsline {subsection}{\numberline {1.3}Integration}{3}
-\contentsline {subsubsection}{\numberline {1.3.1}Hauptsatz der Integralrechnung}{3}
-\contentsline {subsubsection}{\numberline {1.3.2}Integration der Exponentialfunktion}{3}
-\contentsline {subsubsection}{\numberline {1.3.3}Partielle Integration}{3}
-\contentsline {subsection}{\numberline {1.4}Vektoren}{3}
-\contentsline {subsubsection}{\numberline {1.4.1}Addition und Substraktion von Vektoren}{3}
-\contentsline {subsubsection}{\numberline {1.4.2}Skalarmultiplikation}{3}
-\contentsline {subsubsection}{\numberline {1.4.3}Skalarprodukt (Vektorprodukt)}{3}
-\contentsline {subsubsection}{\numberline {1.4.4}Betrag eines Vektors}{3}
-\contentsline {subsection}{\numberline {1.5}Matrizzen}{4}
-\contentsline {subsubsection}{\numberline {1.5.1}Matrixmultiplikation}{4}
-\contentsline {subsubsection}{\numberline {1.5.2}Multiplikation eines Vektors mit einer Matrix}{4}
-\contentsline {subsubsection}{\numberline {1.5.3}Kriterium von Sylvester}{4}
-\contentsline {subsubsection}{\numberline {1.5.4}Rang einer Matrix}{4}
-\contentsline {subsubsection}{\numberline {1.5.5}Matrixinversionen}{4}
-\contentsline {subsection}{\numberline {1.6}Kreise}{5}
-\contentsline {subsubsection}{\numberline {1.6.1}Kreisgleichung}{5}
-\contentsline {section}{\numberline {2}Mehrdimensionale Funktionen}{5}
-\contentsline {subsection}{\numberline {2.1}Abbildungstypen}{5}
-\contentsline {subsubsection}{\numberline {2.1.1}$\mathbb {R} \rightarrow \mathbb {R}$}{5}
-\contentsline {subsubsection}{\numberline {2.1.2}$\mathbb {R} \rightarrow \mathbb {R}^n$}{5}
-\contentsline {subsubsection}{\numberline {2.1.3}$\mathbb {R}^n \rightarrow \mathbb {R}$}{5}
-\contentsline {subsubsection}{\numberline {2.1.4}$\mathbb {R}^n \rightarrow \mathbb {R}^m$}{6}
-\contentsline {subsection}{\numberline {2.2}Niveaulinien}{6}
-\contentsline {section}{\numberline {3}Differentialrechnung bei Funktionen mehrerer Variablen}{6}
-\contentsline {subsection}{\numberline {3.1}Partielles Differenzieren}{6}
-\contentsline {subsection}{\numberline {3.2}Gradientenvektor}{6}
-\contentsline {subsection}{\numberline {3.3}Hesse-Matrix}{6}
-\contentsline {subsection}{\numberline {3.4}Jacobi-Matrix}{6}
-\contentsline {subsection}{\numberline {3.5}Richtungsableitung}{7}
-\contentsline {subsection}{\numberline {3.6}Tangentialabbildung}{7}
-\contentsline {subsection}{\numberline {3.7}Taylorpolynom 2. Grades}{7}
-\contentsline {section}{\numberline {4}Kurven}{7}
-\contentsline {subsection}{\numberline {4.1}Definition}{7}
-\contentsline {subsection}{\numberline {4.2}Tangentialvektor/Tangente}{8}
-\contentsline {section}{\numberline {5}Mehrdimensionale Optimierung}{8}
-\contentsline {subsection}{\numberline {5.1}Optimierung ohne Nebenbedingungen}{8}
-\contentsline {section}{\numberline {6}Differentialgleichungen}{8}
-\contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{8}
-\contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{9}
-\contentsline {subsection}{\numberline {7.1}Gauss Algorithmus bei bestimmten LGS}{9}
-\contentsline {subsection}{\numberline {7.2}Schnittgerade bei undeterministischen LGS}{9}
-\contentsline {section}{\numberline {8}Lineare Abbildungen}{10}
-\contentsline {subsection}{\numberline {8.1}Definition}{10}
-\contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{10}
-\contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{10}
-\contentsline {subsection}{\numberline {8.4}Umkehrung linearer Abbildungen}{10}
-\contentsline {subsection}{\numberline {8.5}Kern und Bild}{10}
-\contentsline {section}{\numberline {9}Eigenwerte und Eigenvektoren}{11}
-\contentsline {subsection}{\numberline {9.1}Definition}{11}
-\contentsline {section}{\numberline {10}Determinanten}{11}
-\contentsline {subsection}{\numberline {10.1}Definition}{11}
-\contentsline {subsection}{\numberline {10.2}Regel von Sarrus}{11}
-\contentsline {subsection}{\numberline {10.3}Entwicklungssatz von Laplace}{11}
+\contentsline {section}{\numberline {1}Grundlagen}{3}
+\contentsline {subsection}{\numberline {1.1}Ableitungsregeln}{3}
+\contentsline {subsubsection}{\numberline {1.1.1}Faktorregel}{3}
+\contentsline {subsubsection}{\numberline {1.1.2}Summenregel}{3}
+\contentsline {subsubsection}{\numberline {1.1.3}Potenzregel}{3}
+\contentsline {subsubsection}{\numberline {1.1.4}Produktregel}{3}
+\contentsline {subsubsection}{\numberline {1.1.5}Quotientenregel}{3}
+\contentsline {subsubsection}{\numberline {1.1.6}Kettenregel}{3}
+\contentsline {subsection}{\numberline {1.2}Besondere Ableitungen}{3}
+\contentsline {subsubsection}{\numberline {1.2.1}Winkelfunktionen}{3}
+\contentsline {subsubsection}{\numberline {1.2.2}Exponentialfunktionen}{3}
+\contentsline {subsubsection}{\numberline {1.2.3}Logarithmusfunktionen}{3}
+\contentsline {subsection}{\numberline {1.3}Integration}{4}
+\contentsline {subsubsection}{\numberline {1.3.1}Hauptsatz der Integralrechnung}{4}
+\contentsline {subsubsection}{\numberline {1.3.2}Integration der Exponentialfunktion}{4}
+\contentsline {subsubsection}{\numberline {1.3.3}Partielle Integration}{4}
+\contentsline {subsection}{\numberline {1.4}Vektoren}{4}
+\contentsline {subsubsection}{\numberline {1.4.1}Addition und Substraktion von Vektoren}{4}
+\contentsline {subsubsection}{\numberline {1.4.2}Skalarmultiplikation}{4}
+\contentsline {subsubsection}{\numberline {1.4.3}Skalarprodukt (Vektorprodukt)}{4}
+\contentsline {subsubsection}{\numberline {1.4.4}Betrag eines Vektors}{4}
+\contentsline {subsection}{\numberline {1.5}Matrizzen}{5}
+\contentsline {subsubsection}{\numberline {1.5.1}Matrixmultiplikation}{5}
+\contentsline {subsubsection}{\numberline {1.5.2}Multiplikation eines Vektors mit einer Matrix}{5}
+\contentsline {subsubsection}{\numberline {1.5.3}Kriterium von Sylvester}{5}
+\contentsline {subsubsection}{\numberline {1.5.4}Rang einer Matrix}{5}
+\contentsline {subsubsection}{\numberline {1.5.5}Matrixinversionen}{5}
+\contentsline {subsection}{\numberline {1.6}Kreise}{6}
+\contentsline {subsubsection}{\numberline {1.6.1}Kreisgleichung}{6}
+\contentsline {section}{\numberline {2}Funktionen}{6}
+\contentsline {subsection}{\numberline {2.1}Abbildungstypen}{6}
+\contentsline {subsubsection}{\numberline {2.1.1}$\mathbb {R} \rightarrow \mathbb {R}$}{6}
+\contentsline {subsubsection}{\numberline {2.1.2}$\mathbb {R} \rightarrow \mathbb {R}^n$}{6}
+\contentsline {subsubsection}{\numberline {2.1.3}$\mathbb {R}^n \rightarrow \mathbb {R}$}{6}
+\contentsline {subsubsection}{\numberline {2.1.4}$\mathbb {R}^n \rightarrow \mathbb {R}^m$}{7}
+\contentsline {subsection}{\numberline {2.2}Niveaulinien bei mehrdimensionalen Funktionen}{7}
+\contentsline {subsection}{\numberline {2.3}Injektivit\"{a}t, Surjektivit\"{a}t, Bijektivit\"{a}t}{7}
+\contentsline {section}{\numberline {3}Differentialrechnung bei Funktionen mehrerer Variablen}{7}
+\contentsline {subsection}{\numberline {3.1}Partielles Differenzieren}{7}
+\contentsline {subsection}{\numberline {3.2}Gradientenvektor}{7}
+\contentsline {subsection}{\numberline {3.3}Hesse-Matrix}{7}
+\contentsline {subsection}{\numberline {3.4}Jacobi-Matrix}{8}
+\contentsline {subsection}{\numberline {3.5}Richtungsableitung}{8}
+\contentsline {subsection}{\numberline {3.6}Tangentialabbildung}{8}
+\contentsline {subsection}{\numberline {3.7}Taylorpolynom 2. Grades}{8}
+\contentsline {section}{\numberline {4}Kurven}{8}
+\contentsline {subsection}{\numberline {4.1}Definition}{8}
+\contentsline {subsection}{\numberline {4.2}Tangentialvektor/Tangente}{9}
+\contentsline {section}{\numberline {5}Mehrdimensionale Optimierung}{9}
+\contentsline {subsection}{\numberline {5.1}Optimierung ohne Nebenbedingungen}{9}
+\contentsline {section}{\numberline {6}Differentialgleichungen}{9}
+\contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{9}
+\contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{10}
+\contentsline {subsection}{\numberline {7.1}Gauss Algorithmus bei bestimmten LGS}{10}
+\contentsline {subsection}{\numberline {7.2}Schnittgerade bei undeterministischen LGS}{10}
+\contentsline {section}{\numberline {8}Lineare Abbildungen}{11}
+\contentsline {subsection}{\numberline {8.1}Definition}{11}
+\contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{11}
+\contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{11}
+\contentsline {subsection}{\numberline {8.4}Umkehrung linearer Abbildungen}{11}
+\contentsline {subsection}{\numberline {8.5}Bild und Urbild einer linearen Abbildung}{11}
+\contentsline {subsection}{\numberline {8.6}Kern einer linearen Abbildung}{12}
+\contentsline {section}{\numberline {9}Eigenwerte und Eigenvektoren}{12}
+\contentsline {subsection}{\numberline {9.1}Definition}{12}
+\contentsline {section}{\numberline {10}Determinanten}{12}
+\contentsline {subsection}{\numberline {10.1}Definition}{12}
+\contentsline {subsection}{\numberline {10.2}Regel von Sarrus}{12}
+\contentsline {subsection}{\numberline {10.3}Entwicklungssatz von Laplace}{12}
