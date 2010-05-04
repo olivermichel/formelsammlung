@@ -21,7 +21,7 @@ der jeweiligen Matrix. Mithilfe des charakteristischen Polynoms lassen sich die 
 Das charakteristische Polynom $\chi$ einer quadratischen Matrix $A$ in Abhängigkeit von $\lambda$ 
 ist definiert als 
 \begin{equation}
-	\chi_A(\lambda) = |\lambda I-A|
+	\chi_A(\lambda) = |A - \lambda I|
 \end{equation}
 Sei eine Matrix $A$ gegeben durch
 \begin{displaymath}
@@ -29,19 +29,19 @@ Sei eine Matrix $A$ gegeben durch
 \end{displaymath}
 dann ist das charakteristische Polynom
 \begin{displaymath}
-	|\lambda I-A| 
-	= \left| \begin{matrix}\lambda-1 & 0 & -1 \\ -2 & \lambda-2 & -1 \\ -4 & -2 & \lambda-1 \end{matrix} \right|
-	= \lambda^3 - 4 \lambda^2 - \lambda + 4 = (\lambda - 1)(\lambda + 1)(\lambda - 4)
+	|A - \lambda I| 
+	= \left| \begin{matrix} 1 - \lambda & 0 & 1 \\ 2 & 2 - \lambda & 1 \\ 4 & 2 & 1 -\lambda \end{matrix} \right|
+	= - \lambda^3 + 4 \lambda^2 + \lambda - 4
 \end{displaymath}
 
 \subsection{Charakteristische Gleichung}
-\label{sub:charakteristische_gleichung}
+\label{sub:charakteristische_gleichung} 
 
 Setzt man das charakteristische Polynom einer Matrix gleich 0, ergibt sich die charakteristische Gleichung.
 \begin{equation}
-	\chi_A(\lambda) = |\lambda I-A| = 0
+	\chi_A(\lambda) = |A - \lambda I| = 0
 \end{equation}
-Die Lösungen der charakteristischen Gleichung zu $A$ sind die Eigenwerte von $A$.
+Die Lösungen der charakteristischen Gleichung $\chi_A$ sind die Eigenwerte von $A$.
 
 \subsection{Eigenvektoren}
 \label{sub:eigenvektoren}

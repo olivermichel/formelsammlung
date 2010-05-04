@@ -8,15 +8,13 @@
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-01T21:13:41Z</date>
+			<date>2010-05-03T20:57:52Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README</string>
 			<key>lastUsed</key>
-			<date>2010-05-01T21:13:42Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2010-05-03T16:51:57Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -25,13 +23,13 @@
 					<key>filename</key>
 					<string>1-grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T20:30:41Z</date>
+					<date>2010-05-03T20:57:52Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
-					<string>2-mehrdimensionale-funktionen.tex</string>
+					<string>2-funktionen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T20:07:01Z</date>
+					<date>2010-05-03T20:57:53Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -67,19 +65,21 @@
 					<key>filename</key>
 					<string>8-lineare-abbildungen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T21:13:41Z</date>
+					<date>2010-05-03T20:57:53Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>9-eigenwerte-eigenvektoren.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T21:13:41Z</date>
+					<date>2010-05-03T20:57:51Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T21:13:41Z</date>
+					<date>2010-05-03T20:57:53Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -101,6 +101,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{51, 1}, {935, 1177}}</string>
+	<string>{{0, 5}, {960, 1173}}</string>
 </dict>
 </plist>
