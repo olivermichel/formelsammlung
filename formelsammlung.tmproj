@@ -8,7 +8,9 @@
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-03T20:57:52Z</date>
+			<date>2010-05-07T20:28:05Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -71,15 +73,13 @@
 					<key>filename</key>
 					<string>9-eigenwerte-eigenvektoren.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-03T20:57:51Z</date>
+					<date>2010-05-07T20:28:04Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
 					<date>2010-05-03T20:57:53Z</date>
-					<key>selected</key>
-					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
