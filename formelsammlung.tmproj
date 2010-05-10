@@ -8,9 +8,7 @@
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-07T20:28:05Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2010-05-09T14:02:06Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -61,7 +59,9 @@
 					<key>filename</key>
 					<string>7-lineare-gleichungssysteme.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T21:13:42Z</date>
+					<date>2010-05-09T14:02:06Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -73,19 +73,19 @@
 					<key>filename</key>
 					<string>9-eigenwerte-eigenvektoren.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-07T20:28:04Z</date>
+					<date>2010-05-09T14:02:05Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-03T20:57:53Z</date>
+					<date>2010-05-09T14:02:06Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>n-zusammenfassung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T20:07:00Z</date>
+					<date>2010-05-09T14:02:06Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>

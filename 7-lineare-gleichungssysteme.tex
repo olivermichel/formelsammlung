@@ -3,6 +3,27 @@
 \section{Lineare Gleichungssysteme}
 \label{sec:lineare_gleichungssysteme}
 
+\subsection{Definition}
+\label{sub:definition}
+
+Ein System aus linearen Gleichungen mit mehreren Unbekannten heißt lineares Gleichungssystem. Es lässt
+sich in Matrixdarstellung als 
+\begin{equation}
+	Ax = b
+\end{equation}
+darstellen. $b$ ist dabei der Lösungsvektor. $A$ heißt Koeffizientenmatrix des Systems. $(A|b)$ ist die erweiterte
+Koeffinzientenmatrix. \\
+Entspricht $b$ dem Nullvektor, ist das Gleichungssystem \emph{homogen}, andernfalls ist es 
+\emph{inhomogen}.
+
+\subsection{L\"{o}sbarkeit von linearen Gleichungssystemen} % (fold)
+\label{sub:loesbarkeit_von_linearen_gleichungssystemen}
+
+Ein LGS ist genau dann eindeutig lösbar, wenn gilt:
+\begin{equation}
+	rg(A) = rg(A|b)
+\end{equation}
+
 \subsection{Gauss Algorithmus bei bestimmten LGS}
 \label{sub:gauss_algorithmus_bei_bestimmten_lgs}
 
