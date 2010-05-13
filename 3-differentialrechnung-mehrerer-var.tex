@@ -87,3 +87,21 @@ Taylorpolynom für $f(x_1,x_2,...,x_n)$ im Punkt $\overrightarrow{p} = (p_1,p_2,
 	T_2 = f(\overrightarrow{p}) + (\overrightarrow{x}-\overrightarrow{p}) \cdot \nabla f(\overrightarrow{p})+\frac{1}{2}
 	(\overrightarrow{x}-\overrightarrow{p})^2 \cdot H_f(\overrightarrow{p})
 \end{equation}
+
+\subsection{Mehrdimensionale Optimierung} % (fold)
+\label{sub:mehrdimensionale_optimierung}
+
+\subsubsection{Optimierung ohne Nebenbedingungen} % (fold)
+\label{ssub:optimierung_ohne_nebenbedingungen}
+Sei $f$ zweimal stetig differenzierbar bei $x_0$.
+\\Stationäre Punkte (notwendige Bedingung):
+\begin{equation}
+	\nabla f (x_0) = 0
+\end{equation}
+Art des Extremums (hinreichende Bedingung):
+
+\begin{itemize}
+	\item $H_f(x_0) = \nabla^2f(x_0)$ : \ positiv definit \  $\Rightarrow f $ ist in $ x_0 $ lokal minimal
+	\item $H_f(x_0) = \nabla^2f(x_0)$ : \ negativ definit \  $\Rightarrow f $ ist in $ x_0 $ lokal maximal
+	\item $H_f(x_0) = \nabla^2f(x_0)$ : \ indefinit \ $\Rightarrow f $ hat in $ x_0 $ einen Sattelpunkt
+\end{itemize}

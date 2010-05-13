@@ -2,13 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>5-numerik.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-09T14:02:06Z</date>
+			<date>2010-05-11T13:57:56Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -23,63 +25,63 @@
 					<key>filename</key>
 					<string>1-grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-03T20:57:52Z</date>
+					<date>2010-05-11T13:56:42Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>2-funktionen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-03T20:57:53Z</date>
+					<date>2010-05-11T13:57:04Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>3-differentialrechnung-mehrerer-var.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T20:34:56Z</date>
+					<date>2010-05-11T13:56:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>4-kurven.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T21:13:41Z</date>
+					<date>2010-05-11T12:35:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
-					<string>5-mehrdimensionale-optimierung.tex</string>
+					<string>5-numerik.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-01T20:37:10Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>6-differentialgleichungen.tex</string>
-					<key>lastUsed</key>
-					<date>2010-05-01T21:13:42Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>7-lineare-gleichungssysteme.tex</string>
-					<key>lastUsed</key>
-					<date>2010-05-09T14:02:06Z</date>
+					<date>2010-05-11T13:57:56Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
+					<string>6-differentialgleichungen.tex</string>
+					<key>lastUsed</key>
+					<date>2010-05-11T13:57:42Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>7-lineare-gleichungssysteme.tex</string>
+					<key>lastUsed</key>
+					<date>2010-05-11T12:35:44Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
 					<string>8-lineare-abbildungen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-03T20:57:53Z</date>
+					<date>2010-05-11T13:57:05Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>9-eigenwerte-eigenvektoren.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-09T14:02:05Z</date>
+					<date>2010-05-11T12:35:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-09T14:02:06Z</date>
+					<date>2010-05-11T12:35:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -97,7 +99,56 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>207</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>5-numerik.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>28</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>6-differentialgleichungen.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>formelsammlung-master.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>28</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>5-numerik.tex</string>
+		<string>formelsammlung-master.tex</string>
+		<string>6-differentialgleichungen.tex</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>

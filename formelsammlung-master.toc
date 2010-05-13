@@ -43,31 +43,37 @@
 \contentsline {subsection}{\numberline {3.5}Richtungsableitung}{9}
 \contentsline {subsection}{\numberline {3.6}Tangentialabbildung}{9}
 \contentsline {subsection}{\numberline {3.7}Taylorpolynom 2. Grades}{9}
-\contentsline {section}{\numberline {4}Kurven}{9}
-\contentsline {subsection}{\numberline {4.1}Definition}{9}
+\contentsline {subsection}{\numberline {3.8}Mehrdimensionale Optimierung}{9}
+\contentsline {subsubsection}{\numberline {3.8.1}Optimierung ohne Nebenbedingungen}{9}
+\contentsline {section}{\numberline {4}Kurven}{10}
+\contentsline {subsection}{\numberline {4.1}Definition}{10}
 \contentsline {subsection}{\numberline {4.2}Tangentialvektor/Tangente}{10}
-\contentsline {section}{\numberline {5}Mehrdimensionale Optimierung}{10}
-\contentsline {subsection}{\numberline {5.1}Optimierung ohne Nebenbedingungen}{10}
-\contentsline {section}{\numberline {6}Differentialgleichungen}{10}
-\contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{10}
+\contentsline {section}{\numberline {5}Numerik}{10}
+\contentsline {subsection}{\numberline {5.1}Fixpunkte}{10}
+\contentsline {subsection}{\numberline {5.2}\"{A}quivalenz zwischen Fixpunkt- und Nullstellenproblem}{10}
+\contentsline {subsection}{\numberline {5.3}Newton-Raphson Iteration zur Nullstellenbestimmung}{11}
+\contentsline {section}{\numberline {6}Differentialgleichungen}{11}
+\contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{11}
 \contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{11}
 \contentsline {subsection}{\numberline {7.1}Definition}{11}
-\contentsline {subsection}{\numberline {7.2}L\"{o}sbarkeit von linearen Gleichungssystemen}{11}
-\contentsline {subsection}{\numberline {7.3}Gauss Algorithmus bei bestimmten LGS}{11}
+\contentsline {subsection}{\numberline {7.2}L\"{o}sbarkeit von linearen Gleichungssystemen}{12}
+\contentsline {subsection}{\numberline {7.3}Gauss Algorithmus bei bestimmten LGS}{12}
 \contentsline {subsection}{\numberline {7.4}Schnittgerade bei undeterministischen LGS}{12}
 \contentsline {section}{\numberline {8}Lineare Abbildungen}{12}
 \contentsline {subsection}{\numberline {8.1}Definition}{12}
 \contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{12}
-\contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{12}
+\contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{13}
 \contentsline {subsection}{\numberline {8.4}Umkehrung linearer Abbildungen}{13}
 \contentsline {subsection}{\numberline {8.5}Bild und Urbild einer linearen Abbildung}{13}
 \contentsline {subsection}{\numberline {8.6}Kern einer linearen Abbildung}{13}
-\contentsline {section}{\numberline {9}Eigenwerte und Eigenvektoren}{13}
-\contentsline {subsection}{\numberline {9.1}Definition}{13}
-\contentsline {subsection}{\numberline {9.2}Charakteristisches Polynom}{13}
-\contentsline {subsection}{\numberline {9.3}Charakteristische Gleichung}{14}
-\contentsline {subsection}{\numberline {9.4}Eigenvektoren}{14}
+\contentsline {subsection}{\numberline {8.7}Dimensionssatz}{13}
+\contentsline {subsection}{\numberline {8.8}Injektivit\"{a}t, Surjektivit\"{a}t und Bijektivit\"{a}t einer linearen Abbildung}{14}
+\contentsline {section}{\numberline {9}Eigenwerte und Eigenvektoren}{14}
+\contentsline {subsection}{\numberline {9.1}Definition}{14}
+\contentsline {subsection}{\numberline {9.2}Charakteristisches Polynom}{14}
+\contentsline {subsection}{\numberline {9.3}Charakteristische Gleichung}{15}
+\contentsline {subsection}{\numberline {9.4}Eigenvektoren}{15}
 \contentsline {section}{\numberline {10}Determinanten}{15}
 \contentsline {subsection}{\numberline {10.1}Definition}{15}
-\contentsline {subsection}{\numberline {10.2}Regel von Sarrus}{15}
-\contentsline {subsection}{\numberline {10.3}Entwicklungssatz von Laplace}{15}
+\contentsline {subsection}{\numberline {10.2}Regel von Sarrus}{16}
+\contentsline {subsection}{\numberline {10.3}Entwicklungssatz von Laplace}{16}
