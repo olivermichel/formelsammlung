@@ -120,13 +120,29 @@ Wenn der Exponent der Exponentialfunktion eine lineare Funktion der Form $mx+c$ 
 	= \left( \begin{array}{c}r \cdot v_1\\r \cdot v_2\\r \cdot v_3\end{array}\right)
 \end{equation}
 
-\subsubsection{Skalarprodukt (Vektorprodukt)} 
-\label{ssub:skalarprodukt_vektorprodukt_}
+\subsubsection{Skalarprodukt} 
+\label{ssub:skalarprodukt}
 
 \begin{equation}
 	\overrightarrow{a} \cdot \overrightarrow{b}
 	= \left( \begin{array}{c} a_1\\a_2\\a_3\end{array}\right) \cdot \left( \begin{array}{c} b_1\\b_2\\b_3\end{array}\right)
 	= a_1 \cdot b_1 + a_2 \cdot b_2 + a_3 \cdot b_3
+\end{equation}
+
+\subsubsection{Kreuzprodukt}
+\label{ssub:kreuzprodukt}
+
+\begin{equation}
+	\overrightarrow{a} \times \overrightarrow{b} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}
+	\times \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}
+	= \begin{pmatrix}a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\ a_1b_2 - a_2b_1\end{pmatrix}
+\end{equation}
+Der resultierende Vektor steht genau senkrecht auf $\overrightarrow{a}$ und $\overrightarrow{b}$.
+Der Betrag des Kreuzproduktes zweier Vektoren $\overrightarrow{a}$, $\overrightarrow{b}$ 
+ist gleich der Fläche des durch $\overrightarrow{a}$ und $\overrightarrow{b}$
+aufgespannten Parallelogramms $P$:
+\begin{equation}
+ 	A_P = |\overrightarrow{a} \times \overrightarrow{b}|
 \end{equation}
 
 \subsubsection{Betrag eines Vektors}
@@ -136,8 +152,8 @@ Wenn der Exponent der Exponentialfunktion eine lineare Funktion der Form $mx+c$ 
 	|\overrightarrow{v}| = \sqrt{v_1^2 + v_2^2 + v_3^2}
 \end{equation}
 
-\subsection{Matrizzen} 
-\label{sub:matrizzen}
+\subsection{Matrizen} 
+\label{sub:matrizen}
 
 \subsubsection{Matrixmultiplikation} 
 \label{ssub:matrixmultiplikation}

@@ -17,21 +17,22 @@
 \contentsline {subsection}{\numberline {1.4}Vektoren}{5}
 \contentsline {subsubsection}{\numberline {1.4.1}Addition und Substraktion von Vektoren}{5}
 \contentsline {subsubsection}{\numberline {1.4.2}Skalarmultiplikation}{5}
-\contentsline {subsubsection}{\numberline {1.4.3}Skalarprodukt (Vektorprodukt)}{5}
-\contentsline {subsubsection}{\numberline {1.4.4}Betrag eines Vektors}{5}
-\contentsline {subsection}{\numberline {1.5}Matrizzen}{6}
+\contentsline {subsubsection}{\numberline {1.4.3}Skalarprodukt}{5}
+\contentsline {subsubsection}{\numberline {1.4.4}Kreuzprodukt}{5}
+\contentsline {subsubsection}{\numberline {1.4.5}Betrag eines Vektors}{6}
+\contentsline {subsection}{\numberline {1.5}Matrizen}{6}
 \contentsline {subsubsection}{\numberline {1.5.1}Matrixmultiplikation}{6}
 \contentsline {subsubsection}{\numberline {1.5.2}Multiplikation eines Vektors mit einer Matrix}{6}
 \contentsline {subsubsection}{\numberline {1.5.3}Kriterium von Sylvester}{6}
 \contentsline {subsubsection}{\numberline {1.5.4}Rang einer Matrix}{6}
-\contentsline {subsubsection}{\numberline {1.5.5}Matrixinversion}{6}
+\contentsline {subsubsection}{\numberline {1.5.5}Matrixinversion}{7}
 \contentsline {subsection}{\numberline {1.6}Kreise}{7}
 \contentsline {subsubsection}{\numberline {1.6.1}Kreisgleichung}{7}
 \contentsline {section}{\numberline {2}Funktionen}{7}
 \contentsline {subsection}{\numberline {2.1}Abbildungstypen}{7}
 \contentsline {subsubsection}{\numberline {2.1.1}$\mathbb {R} \rightarrow \mathbb {R}$}{7}
 \contentsline {subsubsection}{\numberline {2.1.2}$\mathbb {R} \rightarrow \mathbb {R}^n$}{7}
-\contentsline {subsubsection}{\numberline {2.1.3}$\mathbb {R}^n \rightarrow \mathbb {R}$}{7}
+\contentsline {subsubsection}{\numberline {2.1.3}$\mathbb {R}^n \rightarrow \mathbb {R}$}{8}
 \contentsline {subsubsection}{\numberline {2.1.4}$\mathbb {R}^n \rightarrow \mathbb {R}^m$}{8}
 \contentsline {subsection}{\numberline {2.2}Niveaulinien bei mehrdimensionalen Funktionen}{8}
 \contentsline {subsection}{\numberline {2.3}Injektivit\"{a}t, Surjektivit\"{a}t, Bijektivit\"{a}t}{8}

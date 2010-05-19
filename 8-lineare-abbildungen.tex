@@ -58,7 +58,7 @@ ein einen Wert aus der Menge $W$ ergeben.
 Als \emph{Bild} einer linearen Abbildung bezeichnet man entsprechend den Vektorraum, auf den $f$ abbildet. 
 Das Bild ist eine Untermenge von $W$.
 \begin{equation}
-	Im(f) = \{ \: v \in V | \: f(v) \:  \}
+	\im(f) = \{ \: v \in V | \: f(v) \:  \}
 \end{equation}
 
 \subsection{Kern einer linearen Abbildung} 
@@ -67,7 +67,7 @@ Das Bild ist eine Untermenge von $W$.
 Der \emph{Kern} einer linearen Abbildung $f : V \rightarrow W$ ist die Menge der Vektoren $v$, die durch $f$ auf den 
 Nullvektor abgebildet werden. Der Kern ist eine Untermenge von $V$.
 \begin{equation}
-	Ker(f) := \{v \in V \: | \: f(v) = \overrightarrow{0}\}
+	\ker(f) = \{v \in V \: | \: f(v) = \overrightarrow{0}\}
 \end{equation}
 
 Der Kern einer linearen Abbildung mit der Abbildungsmatrix $A$ lässt sich durch Lösen des 
@@ -83,7 +83,7 @@ Hat das Gleichungssystem unendlich viele Lösungen
 Der Dimensionssatz stellt bei lin. Abbildungen den Bezug zwischen Kern und Bild her.
 So gilt bei einer Abbildung $f : V \rightarrow W$:
 \begin{equation}
-	dim(V) = dim(ker(f)) + dim(im(f))
+	\dim(V) = \dim(\ker(f)) + \dim(\im(f))
 \end{equation}
 
 \subsection{Injektivit\"{a}t, Surjektivit\"{a}t und Bijektivit\"{a}t einer linearen Abbildung}
@@ -92,9 +92,9 @@ So gilt bei einer Abbildung $f : V \rightarrow W$:
 Sei $f : \mathbb{R}^m \rightarrow \mathbb{R}^n$ eine lineare Abbildung mit der zugehörigen $n \times m$ - Matrix $A$.
 
 \begin{itemize}
-	\item $f$ ist dann \textbf{injektiv}, wenn gilt: \begin{equation} rg(A) = m \end{equation}
-	\item $f$ ist dann \textbf{surjektiv}, wenn gilt: \begin{equation} rg(A) = n \end{equation}
-	\item $f$ ist genau dann \textbf{bijektiv}, wenn gilt: \begin{equation} rg(A) = m = n\end{equation}
+	\item $f$ ist dann \textbf{injektiv}, wenn gilt: \begin{equation} \rg(A) = m \end{equation}
+	\item $f$ ist dann \textbf{surjektiv}, wenn gilt: \begin{equation} \rg(A) = n \end{equation}
+	\item $f$ ist genau dann \textbf{bijektiv}, wenn gilt: \begin{equation} \rg(A) = m = n\end{equation}
 \end{itemize}
 
 Damit $f$ bijektiv ist, muss $A$ weiterhin regulär und somit invertierbar sein. $|A|$ muss ungleich $0$ sein.
