@@ -26,3 +26,10 @@ Umgekehrt ergibt sich aus jedem Nullstellenproblem $f(x) = 0$ ein entsprechendes
 \subsection{Newton-Raphson Iteration zur Nullstellenbestimmung}
 \label{sub:newton_raphson_iteration_zur_nullstellenbestimmung}
 
+Mit einem gewählten Startwert $x_0$ lässt sich durch die Newton-Raphson-Iteration eine 
+Nullstelle einer Funktion $f(x)$ numerisch berechnen. Die Iteration hierzu sieht 
+folgendermaßen aus:
+\begin{equation}
+	x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\end{equation}
+Bei einem geeigneten Startwert läuft die Iteration gegen eine Nullstelle von $f(x)$.

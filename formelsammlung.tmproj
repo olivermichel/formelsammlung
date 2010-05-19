@@ -2,15 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>5-numerik.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>formelsammlung-master.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-11T13:57:56Z</date>
+			<date>2010-05-16T19:38:03Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -31,7 +29,7 @@
 					<key>filename</key>
 					<string>2-funktionen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-11T13:57:04Z</date>
+					<date>2010-05-16T19:38:03Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -49,15 +47,13 @@
 					<key>filename</key>
 					<string>5-numerik.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-11T13:57:56Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2010-05-16T19:38:04Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>6-differentialgleichungen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-11T13:57:42Z</date>
+					<date>2010-05-14T15:55:26Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -81,7 +77,15 @@
 					<key>filename</key>
 					<string>10-determinanten.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-11T12:35:44Z</date>
+					<date>2010-05-17T20:41:54Z</date>
+					<key>selected</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>11-graphentheorie.tex</string>
+					<key>lastUsed</key>
+					<date>2010-05-17T20:41:54Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -99,56 +103,7 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>207</integer>
 	<key>metaData</key>
-	<dict>
-		<key>5-numerik.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>28</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>6-differentialgleichungen.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>18</integer>
-				<key>line</key>
-				<integer>49</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>formelsammlung-master.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>28</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>5-numerik.tex</string>
-		<string>formelsammlung-master.tex</string>
-		<string>6-differentialgleichungen.tex</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>

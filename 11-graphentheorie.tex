@@ -1,0 +1,102 @@
+%!TEX root = formelsammlung-master.tex
+
+\section{Graphentheorie}
+\label{sec:graphentheorie}
+
+\subsection{Definition}
+\label{sub:definition_graphentheorie}
+
+Jeder Graph $G$ ist durch ein Tripel 
+\begin{equation}
+	G = (V,E,f(e))
+\end{equation}
+bestimmt. Dabei ist $V$ die Menge an Knoten, $E$ die Menge an Kanten und $f$ eine
+Funktion, die jeder Kante $e$ aus $E$ ein gerichtetes oder ungerichtetes Paar Knoten 
+aus $V$ zuordnet.\\\\
+Ist $f(e) = \{v_1,v_2\}$, also ein ungeordnetes Paar, heißt $e$ ungerichtet.\\
+Ist $f(e) = (v_1,v_2)$, also ein geordnetes Paar, heißt $e$ gerichtet. 
+\\\\
+Besteht ein Graph nur aus gerichteten Kanten, heißt er gerichteter Graph, besteht er nur
+aus ungerichteten Kanten heißt er ungerichteter Graph. Besteht er aus beiden Typen von
+Kanten, heißt er gemischter Graph.
+\\\\
+Ordnet die Übergangsfunktion einer Kante $e$ zwei mal dieselben Knoten zu, also
+\begin{equation}
+	f(e) = (v,v),
+\end{equation}
+dann heißt $e$ Schlinge.
+
+\subsection{Knotengrade}
+\label{sub:knotengrade}
+
+Der Knotengrad $d_G(v)$ ist die Anzahl der Kanten, die zu $v$ hinführen oder von $v$
+wegführen.\\
+Als Outdegree ${d^+}_G(v)$ bezeichnet man die Anzahl der Knoten, die von $v$ wegführen.\\
+Analog dazu ist der Indegree ${d^-}_G(v)$ die Anzahl der zu $v$ führenden Kanten.
+
+\subsection{Matrixdarstellungen von Graphen}
+\label{sub:matrixdarstellungen_von_graphen}
+
+\subsubsection{Adjazenzmatrix}
+\label{ssub:adjazenzmatrix}
+In der $n \times n$ Adjazenzmatrix $\mathcal{A}$ eines Graphen repräsentiert jede Zeile 
+$i$ bzw. jede Spalte $j$ einen Knoten. Der Eintrag $\mathcal{A}_{ij}$ ist dann die 
+Anzahl der Kanten, die von $v_i$ nach $v_j$ führen. 
+
+\subsubsection{Inzidenzmatrix}
+\label{ssub:inzidenzmatrix}
+
+Bei der $n \times m$ Inzidenzmatrix $\mathcal{B}$ eines Graphen repräsentiert jede 
+Zeile $i$ einen Knoten und jede Spalte $j$ eine Kante.\\
+Ist der Eintrag $\mathcal{B}_{ij} = 1$, dann ist Knoten $v_i$ mit Kante $e_j$ verbunden. 
+Ist der Eintrag $\mathcal{B}_{ij} = 2$, handelt es sich um eine Schlinge an $v_i$.\\
+Die Spaltensumme in einer Inzidenzmatrix muss immer 2 sein.
+
+\subsection{Kantenfolgen und Erreichbarkeit}
+\label{sub:kantenfolgen_und_erreichbarkeit}
+
+Eine Kantenfolge heißt \emph{geschlossen}, wenn Startknoten und Endknoten identisch sind, 
+sonst heißt die Kantenfolge \emph{offen}.\\
+Eine offene Kantenfolge, in der kein Knoten mehrfach auftritt, heißt \emph{Weg}.
+\\\\
+Ein Knoten $v_i$ heißt von einem Knoten $v_j$ aus erreichbar, wenn es einen Weg von
+$v_j$ nach $v_i$ gibt.
+\\\\
+Die Anzahl der Kantenfolgen der Länge $k$ vom Knoten $v_i$ zum Knoten $v_j$ ist der
+Eintrag $a_{ij}$ der Matrix $\mathcal{A}^k$.
+
+\subsection{Zusammenhang}
+\label{sub:zusammenhang}
+
+Ein ungerichteter Graph heißt \emph{zusammenhängend}, wenn jeder Knoten des Graphen von 
+jedem anderen Knoten des Graphen erreichbar ist.
+\\\\
+Ein gerichteter Graph heißt \emph{stark zusammenhängend}, wenn für jedes Paar $v_1, v_2$ 
+eine Kantenfolge von $v_1$ nach $v_2$ existiert.\\
+Ein gerichteter Graph heißt \emph{schwach zusammenhängend}, wenn nur sein ungerichtetes
+Äquivalent (Schatten) über diese Eigenschaft verfügt. 
+
+\subsection{Eulersche Linie}
+\label{sub:eulersche_linie}
+
+Eine Kantenfolge, die jede Kante des Graphen genau einmal enthält, sowie durch jeden
+Knoten des Graphen geht, heißt \emph{Eulersche Linie}.
+\\\\
+In einem gerichteten Graphen $G$ gibt es genau dann eine geschlossene Eulersche Linie, 
+wenn gilt: 
+\begin{enumerate}
+	\item $d^+(v) = d^-(v)$ für alle Knoten $v \in V(G)$
+	\item $G$ ist schwach zusammenhängend
+\end{enumerate}
+
+In einem ungerichteten Graphen $G$ gibt es genau dann eine geschlossene Eulersche Linie, 
+wenn gilt:
+\begin{enumerate}
+	\item $d(v)$ ist gerade für alle Knoten $v \in V(G)$
+	\item $G$ ist zusammenhängend
+\end{enumerate} 
+
+\subsection{Hamiltonsche Linie}
+\label{sub:hamiltonsche_linie}
+
+Eine Kantenfolge, die jeden Knoten genau einmal enthält, heißt \emph{Hamiltonische Linie}.

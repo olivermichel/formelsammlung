@@ -35,45 +35,56 @@
 \contentsline {subsubsection}{\numberline {2.1.4}$\mathbb {R}^n \rightarrow \mathbb {R}^m$}{8}
 \contentsline {subsection}{\numberline {2.2}Niveaulinien bei mehrdimensionalen Funktionen}{8}
 \contentsline {subsection}{\numberline {2.3}Injektivit\"{a}t, Surjektivit\"{a}t, Bijektivit\"{a}t}{8}
+\contentsline {subsection}{\numberline {2.4}Taylor-Reihen}{8}
 \contentsline {section}{\numberline {3}Differentialrechnung bei Funktionen mehrerer Variablen}{8}
 \contentsline {subsection}{\numberline {3.1}Partielles Differenzieren}{8}
 \contentsline {subsection}{\numberline {3.2}Gradientenvektor}{8}
-\contentsline {subsection}{\numberline {3.3}Hesse-Matrix}{8}
+\contentsline {subsection}{\numberline {3.3}Hesse-Matrix}{9}
 \contentsline {subsection}{\numberline {3.4}Jacobi-Matrix}{9}
 \contentsline {subsection}{\numberline {3.5}Richtungsableitung}{9}
 \contentsline {subsection}{\numberline {3.6}Tangentialabbildung}{9}
-\contentsline {subsection}{\numberline {3.7}Taylorpolynom 2. Grades}{9}
-\contentsline {subsection}{\numberline {3.8}Mehrdimensionale Optimierung}{9}
-\contentsline {subsubsection}{\numberline {3.8.1}Optimierung ohne Nebenbedingungen}{9}
+\contentsline {subsection}{\numberline {3.7}Taylorpolynom 2. Grades}{10}
+\contentsline {subsection}{\numberline {3.8}Mehrdimensionale Optimierung}{10}
+\contentsline {subsubsection}{\numberline {3.8.1}Optimierung ohne Nebenbedingungen}{10}
 \contentsline {section}{\numberline {4}Kurven}{10}
 \contentsline {subsection}{\numberline {4.1}Definition}{10}
 \contentsline {subsection}{\numberline {4.2}Tangentialvektor/Tangente}{10}
 \contentsline {section}{\numberline {5}Numerik}{10}
 \contentsline {subsection}{\numberline {5.1}Fixpunkte}{10}
-\contentsline {subsection}{\numberline {5.2}\"{A}quivalenz zwischen Fixpunkt- und Nullstellenproblem}{10}
+\contentsline {subsection}{\numberline {5.2}\"{A}quivalenz zwischen Fixpunkt- und Nullstellenproblem}{11}
 \contentsline {subsection}{\numberline {5.3}Newton-Raphson Iteration zur Nullstellenbestimmung}{11}
 \contentsline {section}{\numberline {6}Differentialgleichungen}{11}
 \contentsline {subsection}{\numberline {6.1}Homogene lineare DGL 2. Grades mit konstanten Koeffizienten}{11}
-\contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{11}
-\contentsline {subsection}{\numberline {7.1}Definition}{11}
+\contentsline {section}{\numberline {7}Lineare Gleichungssysteme}{12}
+\contentsline {subsection}{\numberline {7.1}Definition}{12}
 \contentsline {subsection}{\numberline {7.2}L\"{o}sbarkeit von linearen Gleichungssystemen}{12}
 \contentsline {subsection}{\numberline {7.3}Gauss Algorithmus bei bestimmten LGS}{12}
 \contentsline {subsection}{\numberline {7.4}Schnittgerade bei undeterministischen LGS}{12}
-\contentsline {section}{\numberline {8}Lineare Abbildungen}{12}
-\contentsline {subsection}{\numberline {8.1}Definition}{12}
-\contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{12}
+\contentsline {section}{\numberline {8}Lineare Abbildungen}{13}
+\contentsline {subsection}{\numberline {8.1}Definition}{13}
+\contentsline {subsection}{\numberline {8.2}Matrixdarstellung}{13}
 \contentsline {subsection}{\numberline {8.3}Verkettung linearer Abbildungen}{13}
 \contentsline {subsection}{\numberline {8.4}Umkehrung linearer Abbildungen}{13}
 \contentsline {subsection}{\numberline {8.5}Bild und Urbild einer linearen Abbildung}{13}
-\contentsline {subsection}{\numberline {8.6}Kern einer linearen Abbildung}{13}
-\contentsline {subsection}{\numberline {8.7}Dimensionssatz}{13}
+\contentsline {subsection}{\numberline {8.6}Kern einer linearen Abbildung}{14}
+\contentsline {subsection}{\numberline {8.7}Dimensionssatz}{14}
 \contentsline {subsection}{\numberline {8.8}Injektivit\"{a}t, Surjektivit\"{a}t und Bijektivit\"{a}t einer linearen Abbildung}{14}
 \contentsline {section}{\numberline {9}Eigenwerte und Eigenvektoren}{14}
 \contentsline {subsection}{\numberline {9.1}Definition}{14}
-\contentsline {subsection}{\numberline {9.2}Charakteristisches Polynom}{14}
+\contentsline {subsection}{\numberline {9.2}Charakteristisches Polynom}{15}
 \contentsline {subsection}{\numberline {9.3}Charakteristische Gleichung}{15}
 \contentsline {subsection}{\numberline {9.4}Eigenvektoren}{15}
-\contentsline {section}{\numberline {10}Determinanten}{15}
-\contentsline {subsection}{\numberline {10.1}Definition}{15}
+\contentsline {section}{\numberline {10}Determinanten}{16}
+\contentsline {subsection}{\numberline {10.1}Definition}{16}
 \contentsline {subsection}{\numberline {10.2}Regel von Sarrus}{16}
 \contentsline {subsection}{\numberline {10.3}Entwicklungssatz von Laplace}{16}
+\contentsline {section}{\numberline {11}Graphentheorie}{16}
+\contentsline {subsection}{\numberline {11.1}Definition}{16}
+\contentsline {subsection}{\numberline {11.2}Knotengrade}{17}
+\contentsline {subsection}{\numberline {11.3}Matrixdarstellungen von Graphen}{17}
+\contentsline {subsubsection}{\numberline {11.3.1}Adjazenzmatrix}{17}
+\contentsline {subsubsection}{\numberline {11.3.2}Inzidenzmatrix}{17}
+\contentsline {subsection}{\numberline {11.4}Kantenfolgen und Erreichbarkeit}{17}
+\contentsline {subsection}{\numberline {11.5}Zusammenhang}{17}
+\contentsline {subsection}{\numberline {11.6}Eulersche Linie}{17}
+\contentsline {subsection}{\numberline {11.7}Hamiltonsche Linie}{18}
